@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="Acerca">حول</string>
+    <string name="Otras_apps">تطبيقات أخرى</string>
+    <string name="Rate">معدل</string>
+    <string name="Salir">خروج</string>
+    <string name="a_veces">때때로 -- أحيانا</string>
+    <string name="abajo">아래로 -- أسفل</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values-ar/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="about">حول</string>
+    <string name="adios">안녕히 가세요 -- وداعا</string>
+    <string name="agua">물 -- ماء</string>
+    <string name="app_name">تعلم اللغة الكورية الحرة HD</string>
+    <string name="arriba">올라 -- فوق</string>
+    <string name="autobus">버스 -- حافلة</string>
+    <string name="avion">평면 -- طائرة</string>
+    <string name="ayer">어제 -- أمس</string>
+    <string name="bicicleta">자전거 -- دراجة</string>
+    <string name="bien_gracias">좋아, 감사 -- بخير شكرا</string>
+    <string name="buen_provecho">드세요 -- بالعافية</string>
+    <string name="buenas_noches">잘 자 -- تصبح على خير</string>
+    <string name="buenas_tardes">안녕하세요 -- مساء الخير</string>
+    <string name="buenosdias">좋은 아침 -- صباح الخير</string>
+    <string name="camarero">웨이터 -- النادل</string>
+    <string name="cena">저녁 식사 -- عشاء</string>
+    <string name="centro">센터 -- مركز</string>
+    <string name="coche">차 -- سيارة</string>
+    <string name="comida">점심 -- غداء</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-ar/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"‏يحتاج <ns1:g id="APP_NAME">%1$s</ns1:g> إلى تحديث لتطبيق Android Wear."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم تحدِّث تطبيق Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"‏تحديث Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"‏يتطلب <ns1:g id="APP_NAME">%1$s</ns1:g> خدمة أو أكثر من خدمات Google Play غير المتاحة حاليًا. الرجاء الاتصال بمطوّر البرامج للحصول على المساعدة."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"‏تمكين خدمات Google Play"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"تم الطلب عن طريق <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر في هاتفك."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر في جهازك اللوحي."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"الحساب الذي تمّ تحديده غير موجود على الجهاز. يُرجى اختيار حساب آخر."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"حساب غير صالح"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"‏يتطلب أحد التطبيقات تمكين خدمات Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"‏يتطلب الاتصال بخدمات Google Play وجود اتصال بيانات."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"خطأ في الشبكة"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"‏يتطلب أحد التطبيقات تحديث خدمات Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"حدث خطأ أثناء تسجيل الدخول إلى الحساب المحدد. الرجاء اختيار حساب مختلف."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"أخفق تسجيل الدخول"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"‏حدثت مشكلة غير معروفة في خدمات Google Play."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"‏يعتمد <ns1:g id="APP_NAME">%1$s</ns1:g> على خدمات Google Play التي لا تتوافق مع جهازك. يمكنك الاتصال بالمصنِّع للحصول على مساعدة."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"‏خدمات Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي يتم تحديثها حاليًا."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"‏يتم الآن تحديث خدمات Google Play."</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"تسجيل الدخول"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"‏تسجيل الدخول باستخدام Google"</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="como_se_llama">당신의 이름은 무엇입니까? -- ما اسمك؟</string>
+    <string name="cuanto_cuesta">그것은 얼마입니까? -- كم سعره؟</string>
+    <string name="cuchara">스푼 -- ملعقة</string>
+    <string name="cuchillo">칼 -- سكين</string>
+    <string name="de_donde_eres">당신은 어디에서인가? -- من أي بلد أنت؟</string>
+    <string name="de_nada">천만에요 -- على الرحب والسعة</string>
+    <string name="debajo">아래의 -- تحت</string>
+    <string name="delante">앞 -- جبهة</string>
+    <string name="derecha">권리 -- الصحيح</string>
+    <string name="desayuno">아침 식사 -- الإفطار</string>
+    <string name="detras">백 -- ظهر</string>
+    <string name="di_a_veces">때때로</string>
+    <string name="di_abajo">아래로</string>
+    <string name="di_adios">안녕히 가세요</string>
+    <string name="di_agua">물</string>
+    <string name="di_arriba">올라</string>
+    <string name="di_autobus">버스</string>
+    <string name="di_avion">평면</string>
+    <string name="di_ayer">어제</string>
+    <string name="di_bicicleta">자전거</string>
+    <string name="di_bien_gracias">좋아, 감사</string>
+    <string name="di_buen_provecho">드세요</string>
+    <string name="di_buenas_noches">잘 자</string>
+    <string name="di_buenas_tardes">안녕하세요</string>
+    <string name="di_buenosdias">좋은 아침</string>
+    <string name="di_camarero">웨이터</string>
+    <string name="di_cena">저녁 식사</string>
+    <string name="di_centro">센터</string>
+    <string name="di_coche">차</string>
+    <string name="di_comida">점심</string>
+    <string name="di_como_se_llama">당신의 이름은 무엇입니까?</string>
+    <string name="di_cuanto_cuesta">그것은 얼마입니까?</string>
+    <string name="di_cuchara">스푼</string>
+    <string name="di_cuchillo">칼</string>
+    <string name="di_de_donde_eres">당신은 어디에서인가?</string>
+    <string name="di_de_nada">천만에요</string>
+    <string name="di_debajo">아래의</string>
+    <string name="di_delante">앞</string>
+    <string name="di_derecha">권리</string>
+    <string name="di_desayuno">아침 식사</string>
+    <string name="di_detras">백</string>
+    <string name="di_el_bano">화장실은 어디에 있습니까?</string>
+    <string name="di_encantado">만나서 반갑습니다</string>
+    <string name="di_encima">위에</string>
+    <string name="di_es_posible">그것은 수</string>
+    <string name="di_esta_bien">즉 OK입니다</string>
+    <string name="di_gracias">고맙습니다</string>
+    <string name="di_habitacion">방</string>
+    <string name="di_habitacion_reservada">나는 한 방을 예약했던</string>
+    <string name="di_hasta_luego">나중에 봐</string>
+    <string name="di_hasta_manana">내일 봐요</string>
+    <string name="di_hasta_pronto">곧 당신을 참조하십시오!</string>
+    <string name="di_hola">안녕하세요</string>
+    <string name="di_hotel">호텔</string>
+    <string name="di_hoy">오늘</string>
+    <string name="di_izquierda">왼쪽</string>
+    <string name="di_la_carta">당신은 나에게 메뉴를 바랍니다 줄 수 있을까요?</string>
+    <string name="di_la_cuenta">당신은 나에게 청구서를하십시오 가지고 있을까?</string>
+    <string name="di_lo_siento">죄송합니다</string>
+    <string name="di_manana">내일</string>
+    <string name="di_me_gusta">나는 것을 좋아</string>
+    <string name="di_me_llamo_paul">내 이름은 폴입니다</string>
+    <string name="di_me_puede_ayudar">당신이 나를 도와 드릴까요?</string>
+    <string name="di_muchas_gracias">정말 감사합니다</string>
+    <string name="di_necesito_un_medico">의사가 필요 해요</string>
+    <string name="di_no">아니</string>
+    <string name="di_no_gracias">아니요 괜찮습니다</string>
+    <string name="di_no_hablo_espanol">나는 한국어를 말​​하지 않는다</string>
+    <string name="di_nunca">어머 놀랐다</string>
+    <string name="di_pan">빵</string>
+    <string name="di_por_favor">하십시오</string>
+    <string name="di_quetal">어떻게 지내세요?</string>
+    <string name="di_servilleta">냅킨</string>
+    <string name="di_si">네</string>
+    <string name="di_siempre">항상</string>
+    <string name="di_soy_de_eeuu">한국에서하지 미안</string>
+    <string name="di_tenedor">포크</string>
+    <string name="di_tren">기차</string>
+    <string name="di_un_cafe">한 커피주세요</string>
+    <string name="di_una_cerveza">한 맥주주세요</string>
+    <string name="di_una_paella">일부 김치하십시오</string>
+    <string name="di_una_tortilla">한 오믈렛, 제발</string>
+    <string name="di_vaso">유리</string>
+    <string name="el_bano">화장실은 어디에 있습니까? -- أين هو المرحاض؟</string>
+    <string name="encantado">만나서 반갑습니다 -- تشرفت بمقابلتك</string>
+    <string name="encima">위에 -- خلال</string>
+    <string name="es_posible">그것은 수 -- يمكن ان تكون</string>
+    <string name="esta_bien">즉 OK입니다 -- ذلك جيد</string>
+    <string name="extra_text1">هذا التطبيق مفيد جدا!\n حاول ذلك! \n ن https://play.google.com/store/apps/details؟id=</string>
+    <string name="gracias">고맙습니다 -- شكرا</string>
+    <string name="habitacion">방 -- غرفة</string>
+    <string name="habitacion_reservada">나는 한 방을 예약했던 -- لقد تم حجز غرفة واحدة</string>
+    <string name="hasta_luego">나중에 봐 -- أراك لاحقا</string>
+    <string name="hasta_manana">내일 봐요 -- أراك غدا</string>
+    <string name="hasta_pronto">곧 당신을 참조하십시오! -- اراك قريبا!</string>
+    <string name="hola">안녕하세요 -- مرحبا</string>
+    <string name="hotel">호텔 -- فندق</string>
+    <string name="hoy">오늘 -- اليوم</string>
+    <string name="izquierda">왼쪽 -- اليسار</string>
+    <string name="la_carta">당신은 나에게 메뉴를 바랍니다 줄 수 있을까요? -- هل يمكن أن تعطيني القائمة، من فضلك؟</string>
+    <string name="la_cuenta">당신은 나에게 청구서를하십시오 가지고 있을까? -- هل يمكن أن أحضر لي مشروع القانون، من فضلك؟</string>
+    <string name="lo_siento">죄송합니다 -- آسف</string>
+    <string name="manana">내일 -- غدا</string>
+    <string name="me_gusta">나는 것을 좋아 -- يعجبني ذلك</string>
+    <string name="me_llamo_paul">내 이름은 폴입니다 -- اسمي بول</string>
+    <string name="me_puede_ayudar">당신이 나를 도와 드릴까요? -- هل تستطيع مساعدتي؟</string>
+    <string name="muchas_gracias">정말 감사합니다 -- شكرا جزيلا</string>
+    <string name="necesito_un_medico">의사가 필요 해요 -- أحتاج إلى طبيب</string>
+    <string name="no">아니 -- لا</string>
+    <string name="no_gracias">아니요 괜찮습니다 -- لا شكرا</string>
+    <string name="no_hablo_espanol">나는 한국어를 말​​하지 않는다 -- أنا لا أتكلم الكورية</string>
+    <string name="nunca">어머 놀랐다 -- أبدا</string>
+    <string name="pan">빵 -- خبز</string>
+    <string name="por_favor">하십시오 -- من فضلك</string>
+    <string name="quetal">어떻게 지내세요? -- كيف حالك؟</string>
+    <string name="servilleta">냅킨 -- منديل</string>
+    <string name="si">네 -- نعم</string>
+    <string name="siempre">항상 -- دائما</string>
+    <string name="soy_de_eeuu">한국에서하지 미안 -- أنا لست من كوريا</string>
+    <string name="subject1">إلقاء نظرة على هذا التطبيق!</string>
+    <string name="tenedor">포크 -- شوكة</string>
+    <string name="textoabout">المفهوم Mymma سوتو \n ن وضعتها بيدرو سانتانجيلو \n ن رموز من رموز لاند \n ن http://www.icons-land.com</string>
+    <string name="toast_redir">إعادة توجيه إلى Google Play لتثبيت النص إلى خطاب محرك</string>
+    <string name="toast_set_language">وضع اللغة TTS لCorean</string>
+    <string name="toast_tts_error">حدث خطأ أثناء تهيئة النص إلى كلام المحرك</string>
+    <string name="toast_tts_inicializado">تم تهيئة محرك تحويل النص إلى كلام</string>
+    <string name="tren">기차 -- قطار</string>
+    <string name="un_cafe">한 커피주세요 -- واحد قهوة، يرجى</string>
+    <string name="una_cerveza">한 맥주주세요 -- بيرة واحدة من فضلك</string>
+    <string name="una_paella">일부 김치하십시오 -- بعض الكيمتشي الرجاء</string>
+    <string name="una_tortilla">한 오믈렛, 제발 -- واحد عجة، يرجى</string>
+    <string name="vaso">유리 -- زجاج</string>
+    <string name="version">الإصدار</string>
+</resources>
