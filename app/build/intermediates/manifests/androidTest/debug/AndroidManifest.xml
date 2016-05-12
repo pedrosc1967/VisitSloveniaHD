@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aprender.coreano.hd.test">
+    package="com.visit.slovenia.hd.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.aprender.coreano.hd"
+                     android:targetPackage="com.visit.slovenia.hd"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.aprender.coreano.hd"/>
+                     android:label="Tests for com.visit.slovenia.hd"/>
 </manifest>

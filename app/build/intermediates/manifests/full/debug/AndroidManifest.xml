@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aprender.coreano.hd"
+    package="com.visit.slovenia.hd"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -91,7 +91,7 @@
 
         <!-- suppress AndroidDomInspection -->
         <activity
-            android:name="com.aprender.coreano.hd.AprenderCoreanoHD"
+            android:name="com.visit.slovenia.hd.VisitSloveniaHD"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

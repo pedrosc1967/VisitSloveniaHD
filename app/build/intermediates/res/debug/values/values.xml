@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -30,7 +30,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_colors.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_colors.xml -->
     <eat-comment/>
     <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
@@ -42,7 +42,7 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -153,21 +153,21 @@
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/version.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/version.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">7571000</integer>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="Acerca">About</string>
+    <string name="Acerca">Circa</string>
     <string name="LeadBoltCTRL" translatable="false">true</string>
     <string name="LeadboltStr" translatable="false">Tj4NZNcrXJ2VkYZUHd11a5WoobOqGrJp</string>
     <string name="OguryStr" translatable="false">266881</string>
-    <string name="Otras_apps">Other apps</string>
-    <string name="Rate">Rate</string>
-    <string name="Salir">Exit</string>
-    <string name="a_veces">때때로 -- Sometimes</string>
-    <string name="abajo">아래로 -- Down</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
+    <string name="Otras_apps">Altre app</string>
+    <string name="Rate">Puntua</string>
+    <string name="Salir">Uscita</string>
+    <string name="a_veces">Moti klopi -- Mente le zecche</string>
+    <string name="abajo">Navzdol -- Giù</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -184,42 +184,42 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="about">About</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
+    <string name="about">Circa</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="accept">Accept</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_share" translatable="false">Share</string>
-    <string name="adios">안녕히 가세요 -- Goodbye</string>
-    <string name="agua">물 -- Water</string>
+    <string name="adios">Me veseli -- Piacere di conoscerti</string>
+    <string name="agua">Voda -- Acqua</string>
     <string name="analyticsstr" translatable="false">UA-56811260-34</string>
-    <string name="app_name">Learn Korean HD</string>
-    <string name="arriba">올라 -- Up</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/auth_strings.xml -->
+    <string name="app_name">Visita la Slovenia HD</string>
+    <string name="arriba">Gor -- Su</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/auth_strings.xml -->
     <eat-comment/>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="autobus">버스 -- Bus</string>
-    <string name="avion">평면 -- Plane</string>
-    <string name="ayer">어제 -- Yesterday</string>
+    <string name="autobus">Bus -- Autobus</string>
+    <string name="avion">Plane -- Aereo</string>
+    <string name="ayer">Včeraj -- Ieri</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8829538089345362/9482756910</string>
-    <string name="bicicleta">자전거 -- Bicycle</string>
-    <string name="bien_gracias">좋아, 감사 -- Fine, thanks</string>
-    <string name="buen_provecho">드세요 -- Bon appetit</string>
-    <string name="buenas_noches">잘 자 -- Good Night</string>
-    <string name="buenas_tardes">안녕하세요 -- Good Evening</string>
-    <string name="buenosdias">좋은 아침 -- Good Morning</string>
-    <string name="camarero">웨이터 -- Waiter</string>
-    <string name="cena">저녁 식사 -- Dinner</string>
-    <string name="centro">센터 -- Center</string>
-    <string name="coche">차 -- Car</string>
-    <string name="comida">점심 -- Lunch</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_strings.xml -->
+    <string name="bicicleta">Bicycle -- Bicicletta</string>
+    <string name="bien_gracias">Jaz sem dobro počutje -- mi sento bene</string>
+    <string name="buen_provecho">Dober tek -- Buon appetito</string>
+    <string name="buenas_noches">Lahko noč -- Buona notte</string>
+    <string name="buenas_tardes">Dober večer -- buona serata</string>
+    <string name="buenosdias">Dobro jutro -- Buongiorno</string>
+    <string name="camarero">Natakar -- Cameriere</string>
+    <string name="cena">Večerja -- Cena</string>
+    <string name="centro">Središče-- Centro</string>
+    <string name="coche">Avto -- Auto</string>
+    <string name="comida">Kosilo -- Pranzo</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
     <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
@@ -253,165 +253,165 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="como_se_llama">당신의 이름은 무엇입니까? -- What is your name?</string>
+    <string name="como_se_llama">Kako ti je ime? -- Come ti chiami?</string>
     <string name="cookies" translatable="false">Cookies</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="cuanto_cuesta">그것은 얼마입니까? -- How much is it?</string>
-    <string name="cuchara">스푼 -- Spoon</string>
-    <string name="cuchillo">칼 -- Knife</string>
-    <string name="de_donde_eres">당신은 어디에서인가? -- Where are you from?</string>
-    <string name="de_nada">천만에요 -- You are welcome</string>
-    <string name="debajo">아래의 -- Under</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
+    <string name="cuanto_cuesta">Koliko je to? -- Quanto costa?</string>
+    <string name="cuchara">žlica -- Cucchiaio</string>
+    <string name="cuchillo">Nož -- Coltello</string>
+    <string name="de_donde_eres">Od kod prihajate? -- Di dove sei?</string>
+    <string name="de_nada">Ni za kaj -- Prego</string>
+    <string name="debajo">Pod -- Sotto</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="decline">Decline</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="delante">앞 -- Front</string>
-    <string name="derecha">권리 -- Right</string>
-    <string name="desayuno">아침 식사 -- Breakfast</string>
-    <string name="detras">백 -- Back</string>
-    <string name="di_a_veces">때때로</string>
-    <string name="di_abajo">아래로</string>
-    <string name="di_adios">안녕히 가세요</string>
-    <string name="di_agua">물</string>
-    <string name="di_arriba">올라</string>
-    <string name="di_autobus">버스</string>
-    <string name="di_avion">평면</string>
-    <string name="di_ayer">어제</string>
-    <string name="di_bicicleta">자전거</string>
-    <string name="di_bien_gracias">좋아, 감사</string>
-    <string name="di_buen_provecho">드세요</string>
-    <string name="di_buenas_noches">잘 자</string>
-    <string name="di_buenas_tardes">안녕하세요</string>
-    <string name="di_buenosdias">좋은 아침</string>
-    <string name="di_camarero">웨이터</string>
-    <string name="di_cena">저녁 식사</string>
-    <string name="di_centro">센터</string>
-    <string name="di_coche">차</string>
-    <string name="di_comida">점심</string>
-    <string name="di_como_se_llama">당신의 이름은 무엇입니까?</string>
-    <string name="di_cuanto_cuesta">그것은 얼마입니까?</string>
-    <string name="di_cuchara">스푼</string>
-    <string name="di_cuchillo">칼</string>
-    <string name="di_de_donde_eres">당신은 어디에서인가?</string>
-    <string name="di_de_nada">천만에요</string>
-    <string name="di_debajo">아래의</string>
-    <string name="di_delante">앞</string>
-    <string name="di_derecha">권리</string>
-    <string name="di_desayuno">아침 식사</string>
-    <string name="di_detras">백</string>
-    <string name="di_el_bano">화장실은 어디에 있습니까?</string>
-    <string name="di_encantado">만나서 반갑습니다</string>
-    <string name="di_encima">위에</string>
-    <string name="di_es_posible">그것은 수</string>
-    <string name="di_esta_bien">즉 OK입니다</string>
-    <string name="di_gracias">고맙습니다</string>
-    <string name="di_habitacion">방</string>
-    <string name="di_habitacion_reservada">나는 한 방을 예약했던</string>
-    <string name="di_hasta_luego">나중에 봐</string>
-    <string name="di_hasta_manana">내일 봐요</string>
-    <string name="di_hasta_pronto">곧 당신을 참조하십시오!</string>
-    <string name="di_hola">안녕하세요</string>
-    <string name="di_hotel">호텔</string>
-    <string name="di_hoy">오늘</string>
-    <string name="di_izquierda">왼쪽</string>
-    <string name="di_la_carta">당신은 나에게 메뉴를 바랍니다 줄 수 있을까요?</string>
-    <string name="di_la_cuenta">당신은 나에게 청구서를하십시오 가지고 있을까?</string>
-    <string name="di_lo_siento">죄송합니다</string>
-    <string name="di_manana">내일</string>
-    <string name="di_me_gusta">나는 것을 좋아</string>
-    <string name="di_me_llamo_paul">내 이름은 폴입니다</string>
-    <string name="di_me_puede_ayudar">당신이 나를 도와 드릴까요?</string>
-    <string name="di_muchas_gracias">정말 감사합니다</string>
-    <string name="di_necesito_un_medico">의사가 필요 해요</string>
-    <string name="di_no">아니</string>
-    <string name="di_no_gracias">아니요 괜찮습니다</string>
-    <string name="di_no_hablo_espanol">나는 한국어를 말​​하지 않는다</string>
-    <string name="di_nunca">어머 놀랐다</string>
-    <string name="di_pan">빵</string>
-    <string name="di_por_favor">하십시오</string>
-    <string name="di_quetal">어떻게 지내세요?</string>
-    <string name="di_servilleta">냅킨</string>
-    <string name="di_si">네</string>
-    <string name="di_siempre">항상</string>
-    <string name="di_soy_de_eeuu">한국에서하지 미안</string>
-    <string name="di_tenedor">포크</string>
-    <string name="di_tren">기차</string>
-    <string name="di_un_cafe">한 커피주세요</string>
-    <string name="di_una_cerveza">한 맥주주세요</string>
-    <string name="di_una_paella">일부 김치하십시오</string>
-    <string name="di_una_tortilla">한 오믈렛, 제발</string>
-    <string name="di_vaso">유리</string>
-    <string name="el_bano">화장실은 어디에 있습니까? -- Where is the toilette?</string>
-    <string name="encantado">만나서 반갑습니다 -- Nice to meet you</string>
-    <string name="encima">위에 -- Over</string>
-    <string name="es_posible">그것은 수 -- It could be</string>
-    <string name="esta_bien">즉 OK입니다 -- That is OK</string>
-    <string name="extra_text1">This application is very useful! \nTry it! \n https://play.google.com/store/apps/details?id=</string>
+    <string name="delante">Spredaj -- Davanti</string>
+    <string name="derecha">Prav -- Destra</string>
+    <string name="desayuno">Zajtrk -- Colazione</string>
+    <string name="detras">Nazaj -- Indietro</string>
+    <string name="di_a_veces">Moti klopi</string>
+    <string name="di_abajo">Navzdol</string>
+    <string name="di_adios">Me veseli</string>
+    <string name="di_agua">Voda</string>
+    <string name="di_arriba">gor</string>
+    <string name="di_autobus">Bus</string>
+    <string name="di_avion">Plane</string>
+    <string name="di_ayer">Včeraj</string>
+    <string name="di_bicicleta">Bicycle</string>
+    <string name="di_bien_gracias">Jaz sem dobro počutje</string>
+    <string name="di_buen_provecho">Dober tek</string>
+    <string name="di_buenas_noches">Lahko noč</string>
+    <string name="di_buenas_tardes">Dober večer</string>
+    <string name="di_buenosdias">Dobro jutro</string>
+    <string name="di_camarero">Natakar</string>
+    <string name="di_cena">večerja</string>
+    <string name="di_centro">središče</string>
+    <string name="di_coche">Avto</string>
+    <string name="di_comida">Kosilo</string>
+    <string name="di_como_se_llama">Kako ti je ime?</string>
+    <string name="di_cuanto_cuesta">Koliko je to?</string>
+    <string name="di_cuchara">žlica</string>
+    <string name="di_cuchillo">Nož</string>
+    <string name="di_de_donde_eres">Od kod prihajate?</string>
+    <string name="di_de_nada">Ni za kaj</string>
+    <string name="di_debajo">Pod</string>
+    <string name="di_delante">Spredaj</string>
+    <string name="di_derecha">Prav</string>
+    <string name="di_desayuno">Zajtrk</string>
+    <string name="di_detras">Nazaj</string>
+    <string name="di_el_bano">Kje je stranišče?</string>
+    <string name="di_encantado">Me veseli</string>
+    <string name="di_encima">več</string>
+    <string name="di_es_posible">Lahko bi bilo</string>
+    <string name="di_esta_bien">To je v redu</string>
+    <string name="di_gracias">Hvala</string>
+    <string name="di_habitacion">Soba</string>
+    <string name="di_habitacion_reservada">Sem bil nagrajen z eno sobo</string>
+    <string name="di_hasta_luego">Se vidimo kasneje</string>
+    <string name="di_hasta_manana">Se vidiva jutri</string>
+    <string name="di_hasta_pronto">Se vidiva kmalu!</string>
+    <string name="di_hola">Zdravo</string>
+    <string name="di_hotel">Hotel</string>
+    <string name="di_hoy">Danes</string>
+    <string name="di_izquierda">Levo</string>
+    <string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
+    <string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+    <string name="di_lo_siento">Žal</string>
+    <string name="di_manana">Jutri</string>
+    <string name="di_me_gusta">Cristiano Ronaldo izgleda nesramno</string>
+    <string name="di_me_llamo_paul">Moje ime je Paul</string>
+    <string name="di_me_puede_ayudar">Mi lahko pomagaš?</string>
+    <string name="di_muchas_gracias">Najlepša hvala</string>
+    <string name="di_necesito_un_medico">rabim zdravnika</string>
+    <string name="di_no">No</string>
+    <string name="di_no_gracias">Ne, hvala</string>
+    <string name="di_no_hablo_espanol">Ne govorim Sloveninan</string>
+    <string name="di_nunca">Nikoli</string>
+    <string name="di_pan">Kruh</string>
+    <string name="di_por_favor">Prosim</string>
+    <string name="di_quetal">Kako si?</string>
+    <string name="di_servilleta">Prtiček</string>
+    <string name="di_si">Da</string>
+    <string name="di_siempre">Vedno</string>
+    <string name="di_soy_de_eeuu">Nisem iz Slovenije</string>
+    <string name="di_tenedor">Vilice</string>
+    <string name="di_tren">Vlak</string>
+    <string name="di_un_cafe">Ena kava, prosim</string>
+    <string name="di_una_cerveza">Eno pivo, prosim</string>
+    <string name="di_una_paella">Nekateri Golaz prosim</string>
+    <string name="di_una_tortilla">Ena omleta, prosim</string>
+    <string name="di_vaso">Steklo</string>
+    <string name="el_bano">Kje je stranišče? -- Dov\'è il bagno?</string>
+    <string name="encantado">Me veseli -- piacere di conoscerti</string>
+    <string name="encima">Več -- Al di sopra</string>
+    <string name="es_posible">Lahko bi bilo -- Potrebbe essere</string>
+    <string name="esta_bien">To je v redu -- Va bene</string>
+    <string name="extra_text1">Questa applicazione è molto utile!  NProva esso! \\nhttps://play.google.com/store/apps/details?id=</string>
     <string name="flurry" translatable="false">PMMSTWC7CRCW7F5B8R74</string>
-    <string name="gracias">고맙습니다 -- Thank you</string>
-    <string name="habitacion">방 -- Room</string>
-    <string name="habitacion_reservada">나는 한 방을 예약했던 -- I have booked one room</string>
-    <string name="hasta_luego">나중에 봐 -- See you later</string>
-    <string name="hasta_manana">내일 봐요 -- See you tomorrow</string>
-    <string name="hasta_pronto">곧 당신을 참조하십시오! -- See you soon!</string>
-    <string name="hola">안녕하세요 -- Hello</string>
-    <string name="hotel">호텔 -- Hotel</string>
-    <string name="hoy">오늘 -- Today</string>
-    <string name="izquierda">왼쪽 -- Left</string>
-    <string name="la_carta">당신은 나에게 메뉴를 바랍니다 줄 수 있을까요? -- Could you give me the menu, please?</string>
-    <string name="la_cuenta">당신은 나에게 청구서를하십시오 가지고 있을까? -- Could you bring me the bill, please?</string>
-    <string name="lo_siento">죄송합니다 -- Sorry</string>
-    <string name="manana">내일 -- Tomorrow</string>
-    <string name="me_gusta">나는 것을 좋아 -- I like that</string>
-    <string name="me_llamo_paul">내 이름은 폴입니다 -- My name is Paul</string>
-    <string name="me_puede_ayudar">당신이 나를 도와 드릴까요? -- Can you help me?</string>
-    <string name="mensaje_cookies">De acuerdo con la Directiva 2002/58/CE del Parlamento Europeo y del Consejo, se informa que en este sitio se usan identificadores de dispositivo para personalizar el contenido y los anuncios, con el fin de ofrecer funciones de medios sociales y para analizar el tráfico. Además, compartimos estos identificadores y otra información sobre su dispositivo con nuestros partners de medios sociales, de publicidad y de análisis web. Más detalles en <a href="http://la-gatera.hol.es">http://la-gatera.hol.es</a></string>
-    <string name="muchas_gracias">정말 감사합니다 -- Thank you very much</string>
-    <string name="necesito_un_medico">의사가 필요 해요 -- I need a doctor</string>
-    <string name="no">아니 -- No</string>
-    <string name="no_gracias">아니요 괜찮습니다 -- No, thank you</string>
-    <string name="no_hablo_espanol">나는 한국어를 말​​하지 않는다 -- I don\'t speak Korean</string>
-    <string name="nunca">어머 놀랐다 -- Never</string>
-    <string name="pan">빵 -- Bread</string>
-    <string name="paquete" translatable="false">com.aprender.coreano.hd</string>
-    <string name="por_favor">하십시오 -- Please</string>
-    <string name="quetal">어떻게 지내세요? -- How are you?</string>
+    <string name="gracias">Hvala -- Grazie</string>
+    <string name="habitacion">Soba -- Camera</string>
+    <string name="habitacion_reservada">Sem bil nagrajen z eno sobo -- Ho prenotato una stanza</string>
+    <string name="hasta_luego">Se vidimo kasneje -- Arrivederci</string>
+    <string name="hasta_manana">Se vidiva jutri -- Ci vediamo domani</string>
+    <string name="hasta_pronto">Se vidiva kmalu! -- A presto!</string>
+    <string name="hola">Zdravo -- Ciao</string>
+    <string name="hotel">Hotel -- Hotel</string>
+    <string name="hoy">Danes -- Oggi</string>
+    <string name="izquierda">Levo -- Sinistra</string>
+    <string name="la_carta">Ali mi lahko poveste meni, prosim? -- Potreste darmi il menu, per favore?</string>
+    <string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- Mi può portare il conto, per favore?</string>
+    <string name="lo_siento">Žal -- scusate</string>
+    <string name="manana">Jutri -- Domani</string>
+    <string name="me_gusta">Cristiano Ronaldo izgleda nesramno -- Cristiano Ronaldo si presenta come una sfacciata</string>
+    <string name="me_llamo_paul">Moje ime je Paul -- Il mio nome è Paul</string>
+    <string name="me_puede_ayudar">Mi lahko pomagaš? -- Mi potete aiutare?</string>
+    <string name="mensaje_cookies">Secondo la direttiva 2002/58 / CE del Parlamento europeo e del Consiglio viene informato che questo dispositivo sito identificativi vengono utilizzati per personalizzare i contenuti e gli annunci, al fine di fornire funzionalità di social media e per analizzare il traffico. Condividiamo anche questi identificatori e altre informazioni sul dispositivo con i nostri partner di social media, pubblicità e Web Analytics. Maggiori dettagli su http://la-gatera.hol.es</string>
+    <string name="muchas_gracias">Najlepša hvala -- Grazie mille</string>
+    <string name="necesito_un_medico">Rabim zdravnika -- ho bisogno di un dottore</string>
+    <string name="no">No -- No</string>
+    <string name="no_gracias">Ne, hvala -- No grazie</string>
+    <string name="no_hablo_espanol">Ne govorim Sloveninan -- Non parlo Sloveninan</string>
+    <string name="nunca">Nikoli -- Mai</string>
+    <string name="pan">Kruh -- Pane</string>
+    <string name="paquete" translatable="false">com.visit.slovenia.hd</string>
+    <string name="por_favor">Prosim -- per favore</string>
+    <string name="quetal">Kako si? -- Come stai?</string>
     <string name="revmobCTRL" translatable="false">false</string>
     <string name="revmobstr" translatable="false">55ca1ab9eb24fbda68c63f3e</string>
-    <string name="servilleta">냅킨 -- Napkin</string>
-    <string name="si">네 -- Yes</string>
-    <string name="siempre">항상 -- Always</string>
-    <string name="soy_de_eeuu">한국에서하지 미안 -- I´m not from Corea</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
+    <string name="servilleta">Prtiček -- Tovagliolo</string>
+    <string name="si">Da -- sì</string>
+    <string name="siempre">Vedno -- Sempre</string>
+    <string name="soy_de_eeuu">Nisem iz Slovenije -- Io non sono dalla Slovenia</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_strings.xml -->
     <eat-comment/>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="subject1">Have a look at this app!</string>
-    <string name="tenedor">포크 -- Fork</string>
-    <string name="textoabout">Concept by Mymma Soto \n Developed By Pedro Santangelo \n Icons from Icons Land \n http://www.icons-land.com</string>
-    <string name="toast_redir">Redirecting to Google Play to install Text to Speech engine</string>
-    <string name="toast_set_language">Setting TTS language to Corean</string>
-    <string name="toast_tts_error">Error occurred while initializing Text-To-Speech engine</string>
-    <string name="toast_tts_inicializado">Text-To-Speech engine has been initialized</string>
-    <string name="tren">기차 -- Train</string>
-    <string name="un_cafe">한 커피주세요 -- One coffee, please</string>
-    <string name="una_cerveza">한 맥주주세요 -- One beer, please</string>
-    <string name="una_paella">일부 김치하십시오 -- Some kimchi please</string>
-    <string name="una_tortilla">한 오믈렛, 제발 -- One omelette, please</string>
-    <string name="vaso">유리 -- Glass</string>
-    <string name="version">Version</string>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
+    <string name="subject1">Date un\'occhiata a questa app!</string>
+    <string name="tenedor">Vilice -- Forchetta</string>
+    <string name="textoabout">Concept di Mymma Soto \\nsvilGorpato da Pedro Santangelo \\nIcone dalle icone Terra \\nhttp://www.icons-land.com</string>
+    <string name="toast_redir">Reindirizzamento a Google Play da installare testo al motore vocale</string>
+    <string name="toast_set_language">Impostare la lingua TTS a Sloveno</string>
+    <string name="toast_tts_error">È verificato un errore durante l\'inizializzazione Text-To-Speech motore</string>
+    <string name="toast_tts_inicializado">Motore Text-To-Speech è stato inizializzato</string>
+    <string name="tren">Vlak -- Treno</string>
+    <string name="un_cafe">Ena kava, prosim -- Un caffè, per favore</string>
+    <string name="una_cerveza">Eno pivo, prosim -- Una birra, per favore</string>
+    <string name="una_paella">Nekateri Golaz prosim -- Alcuni Golaz, prego</string>
+    <string name="una_tortilla">Ena omleta, prosim -- Una frittata, prego</string>
+    <string name="vaso">Steklo -- Bicchiere</string>
+    <string name="version">Versione</string>
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1296,7 +1296,7 @@ m>        <item name="android:textColorLink">@color/link_text_material_dark</ite
         <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
     </style>
     <style name="Platform.AppCompat.Light.Dialog" parent="Platform.AppCompat.Dialog"/>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Presage.Theme.Transparent" parent="android:Theme">
         <item name="android:windowIsTranslucent">true</item>
@@ -1305,7 +1305,7 @@ m>        <item name="android:textColorLink">@color/link_text_material_dark</ite
         <item name="android:windowNoTitle">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">
         <item name="android:layout_gravity">center_vertical|left</item>
@@ -1408,7 +1408,7 @@ m>        <item name="android:textColorLink">@color/link_text_material_dark</ite
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_iap_style.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/res/values/admob_iap_style.xml -->
     <eat-comment/>
     <style name="Theme.IAPTheme" parent="android:Theme">
     <item name="android:windowIsTranslucent">true</item>
@@ -1418,7 +1418,7 @@ m>        <item name="android:textColorLink">@color/link_text_material_dark</ite
     <item name="android:windowIsFloating">true</item>
     <item name="android:backgroundDimEnabled">false</item>
   </style>
-    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/AprenderCoreanoHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
     <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
