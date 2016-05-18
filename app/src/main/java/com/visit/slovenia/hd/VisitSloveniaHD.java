@@ -37,6 +37,8 @@ import com.revmob.RevMob;
 import com.revmob.RevMobAdsListener;
 import com.revmob.ads.fullscreen.RevMobFullscreen;
 
+import com.FaceBook.*;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Locale;
@@ -117,7 +119,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.Otras_apps:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pub:\"Pedro Santangelo\"") ) );
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pub:\"Aabcdata\"") ) );
                 return true;
             case R.id.Rate:
                 startActivity(new Intent(ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id="+getString(R.string.paquete)) ) );
@@ -192,6 +194,10 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
 
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();

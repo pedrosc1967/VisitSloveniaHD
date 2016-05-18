@@ -45,6 +45,9 @@
             android:configChanges="keyboardHidden|orientation">
         </activity>
 
+        <!-- Declare Facebook app ID -->
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
         <!-- RevMob Media ID -->
         <meta-data android:name="com.revmob.app.id" android:value="@string/revmobstr"/>
           <!--  android:value="55bf51d60f06624354cab257"-->

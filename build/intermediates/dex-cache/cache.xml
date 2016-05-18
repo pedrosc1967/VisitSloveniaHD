@@ -2,81 +2,81 @@
 <items version="2" >
 
     <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/classes-2e6296439cddddab1d4af51c41817c84fa777ca3.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/classes-4f8992de59cab972c7591afdf68600534fa08d0f.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/AppTracker.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="cc5636727a279d6c32745d779de69f0c42f753e6">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/AppTracker-6305281cfb6a76b76347b706905c8fed42ad47b0.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/Documents/Desarrollo/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a93a60d297d336c026f1628405cc417c672326e7.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/presage-lib-1.6.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="530dc4ed5821c0cdb6af0ca173f6918f5bb20346">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/presage-lib-1.6.0-55e01d2c020db88b7816b2b950663ddf1a9c8b7c.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/classes-75e6480a9afa56e27aa53c5d73acf32b5da92697.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/classes-17626a6ec94839217bdb9386ce5c9f6b2c647ddd.jar" />
-    </item>
-    <item
         jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/FlurryAnalytics_3.3.2.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="5fb31df526a21837fb7b59f224fccbc5fbbf6273">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/FlurryAnalytics_3.3.2-9525a93c90f43b5f3550407f515e10b649f36c3c.jar" />
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/FlurryAnalytics_3.3.2-9525a93c90f43b5f3550407f515e10b649f36c3c.jar" />
     </item>
     <item
         jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/classes-2cc0c5440501581d660951767fc6d8b87e2f582a.jar" />
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/classes-2cc0c5440501581d660951767fc6d8b87e2f582a.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/classes-17626a6ec94839217bdb9386ce5c9f6b2c647ddd.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/presage-lib-1.6.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="530dc4ed5821c0cdb6af0ca173f6918f5bb20346">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/presage-lib-1.6.0-55e01d2c020db88b7816b2b950663ddf1a9c8b7c.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/Documents/Desarrollo/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/support-annotations-22.0.0-a93a60d297d336c026f1628405cc417c672326e7.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/classes-75e6480a9afa56e27aa53c5d73acf32b5da92697.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/classes-4f8992de59cab972c7591afdf68600534fa08d0f.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/AppTracker.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cc5636727a279d6c32745d779de69f0c42f753e6">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/AppTracker-6305281cfb6a76b76347b706905c8fed42ad47b0.jar" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/classes-2e6296439cddddab1d4af51c41817c84fa777ca3.jar" />
     </item>
     <item
         jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-2c68d61fda1d5493cf2b6bb09dc99c57850ac37d.jar" />
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/internal_impl-22.0.0-2c68d61fda1d5493cf2b6bb09dc99c57850ac37d.jar" />
     </item>
     <item
         jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/revmob.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="eef1af34ff8ccb74ca48485b26f349706111d276">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/revmob-46d9c4c983cfc1658db9212e2933f92df206ebb3.jar" />
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/release/revmob-46d9c4c983cfc1658db9212e2933f92df206ebb3.jar" />
     </item>
 
 </items>

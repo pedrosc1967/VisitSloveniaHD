@@ -155,7 +155,7 @@
     <string name="Rate">Puntua</string>
     <string name="about">Circa</string>
     <string name="subject1">Date un\'occhiata a questa app!</string>
-    <string name="textoabout">Concept di Mymma Soto \\nsvilGorpato da Pedro Santangelo \\nIcone dalle icone Terra \\nhttp://www.icons-land.com</string>
+    <string name="textoabout">Concept di Mymma Soto \\nsvilGorpato da Aabcdata \\nIcone dalle icone Terra \\nhttp://www.icons-land.com</string>
     <string name="version">Versione</string>
     <string name="extra_text1">Questa applicazione è molto utile!  NProva esso! \\nhttps://play.google.com/store/apps/details?id=</string>
     <string name="action_share" translatable="false">Share</string>
@@ -166,6 +166,7 @@
     <string name="analyticsstr" translatable="false">UA-56811260-34</string>
     <string name="LeadboltStr" translatable="false">Tj4NZNcrXJ2VkYZUHd11a5WoobOqGrJp</string>
     <string name="revmobstr" translatable="false">55ca1ab9eb24fbda68c63f3e</string>
+    <string name="facebook_app_id">1759289410974589</string>
     <string name="LeadBoltCTRL" translatable="false">true</string>
     <string name="revmobCTRL" translatable="false">false</string>
     <string name="cookies" translatable="false">Cookies</string>

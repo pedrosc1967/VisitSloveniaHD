@@ -204,7 +204,7 @@
     <string name="soy_de_eeuu">Nisem iz Slovenije -- Jeg er ikke fra Slovenien</string>
     <string name="subject1">Tag et kig på denne app!</string>
     <string name="tenedor">Vilice -- Gaffel</string>
-    <string name="textoabout">Koncept af Mymma Soto \\nUdviklet af Pedro Santangelo \\nikoner fra ikoner Land \\nhttp://www.icons-land.com</string>
+    <string name="textoabout">Koncept af Mymma Soto \\nUdviklet af Aabcdata \\nikoner fra ikoner Land \\nhttp://www.icons-land.com</string>
     <string name="toast_redir">Omdirigering til Google Play for at installere Tekst til tale motor</string>
     <string name="toast_set_language">Indstilling TTS sprog til Slovensk</string>
     <string name="toast_tts_error">Der opstod en fejl under initialisering tekst-til-tale motor</string>

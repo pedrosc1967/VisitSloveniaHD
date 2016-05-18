@@ -399,7 +399,7 @@
     <eat-comment/>
     <string name="subject1">Date un\'occhiata a questa app!</string>
     <string name="tenedor">Vilice -- Forchetta</string>
-    <string name="textoabout">Concept di Mymma Soto \\nsvilGorpato da Pedro Santangelo \\nIcone dalle icone Terra \\nhttp://www.icons-land.com</string>
+    <string name="textoabout">Concept di Mymma Soto \\nsvilGorpato da Aabcdata \\nIcone dalle icone Terra \\nhttp://www.icons-land.com</string>
     <string name="toast_redir">Reindirizzamento a Google Play da installare testo al motore vocale</string>
     <string name="toast_set_language">Impostare la lingua TTS a Sloveno</string>
     <string name="toast_tts_error">È verificato un errore durante l\'inizializzazione Text-To-Speech motore</string>

@@ -4,9 +4,9 @@
     <eat-comment/>
     <string name="Acerca">Acerca de</string>
     <string name="Otras_apps">Otras aplicaciones</string>
-    <string name="Rate">Tarifa</string>
+    <string name="Rate">Puntuar</string>
     <string name="Salir">Salida</string>
-    <string name="a_veces">Moti klopi -- La mente las garrapatas</string>
+    <string name="a_veces">Moti klopi -- A veces</string>
     <string name="abajo">Navzdol -- Abajo</string>
     <!-- From: file:/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values-es/values.xml -->
     <eat-comment/>
@@ -35,7 +35,7 @@
     <string name="autobus">Bus -- Autobús</string>
     <string name="avion">Plane -- Avión</string>
     <string name="ayer">Včeraj -- Ayer</string>
-    <string name="bicicleta">Bicycle -- Bicicleta</string>
+    <string name="bicicleta">Kolo -- Bicicleta</string>
     <string name="bien_gracias">Jaz sem dobro počutje -- me siento bien</string>
     <string name="buen_provecho">Dober tek -- Buen provecho</string>
     <string name="buenas_noches">Lahko noč -- Buenas noches</string>
@@ -101,7 +101,7 @@
     <string name="di_autobus">Bus</string>
     <string name="di_avion">Plane</string>
     <string name="di_ayer">Včeraj</string>
-    <string name="di_bicicleta">Bicycle</string>
+    <string name="di_bicicleta">kolo</string>
     <string name="di_bien_gracias">Jaz sem dobro počutje</string>
     <string name="di_buen_provecho">Dober tek</string>
     <string name="di_buenas_noches">Lahko noč</string>
@@ -202,9 +202,9 @@
     <string name="si">Da -- Sí</string>
     <string name="siempre">Vedno -- Siempre</string>
     <string name="soy_de_eeuu">Nisem iz Slovenije -- Yo no soy de Eslovenia</string>
-    <string name="subject1">Echar un vistazo a esta aplicación!</string>
+    <string name="subject1">Mira que aplicación más chula!</string>
     <string name="tenedor">Vilice -- Tenedor</string>
-    <string name="textoabout">Concepto por Mymma Soto \\ndesarrollado por Pedro Santangelo \\nLos iconos de los iconos Tierra \\nhttp://www.icons-land.com</string>
+    <string name="textoabout">Concepto por Mymma Soto \\ndesarrollado por Aabcdata \\nLos iconos de los iconos Tierra \\nhttp://www.icons-land.com</string>
     <string name="toast_redir">Volver a dirigir a Google Play para instalar motor de texto a discurso</string>
     <string name="toast_set_language">Establecer el idioma TTS al Esloveno</string>
     <string name="toast_tts_error">Se produjo un error al inicializar Text-To-Speech Engine</string>

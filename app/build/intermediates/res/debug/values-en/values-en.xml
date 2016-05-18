@@ -149,7 +149,7 @@
     <string name="soy_de_eeuu">Nisem iz Slovenije -- I´m not from Slovenia</string>
     <string name="subject1">Have a look at this app!</string>
     <string name="tenedor">Vilice -- Fork</string>
-    <string name="textoabout">Concept by Mymma Soto \n Developed By Pedro Santangelo \n Icons from Icons Land \n http://www.icons-land.com</string>
+    <string name="textoabout">Concept by Mymma Soto \n Developed By Aabcdata \n Icons from Icons Land \n http://www.icons-land.com</string>
     <string name="toast_redir">Redirecting to Google Play to install Text to Speech engine</string>
     <string name="toast_set_language">Setting TTS language to Slovenian</string>
     <string name="toast_tts_error">Error occurred while initializing Text-To-Speech engine</string>
