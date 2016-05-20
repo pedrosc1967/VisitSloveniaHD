@@ -22,11 +22,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.ShareActionProvider;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.apptracker.android.track.AppTracker;
+import com.facebook.FacebookSdk;
+import com.facebook.ads.AdSize;
+import com.facebook.appevents.AppEventsLogger;
 import com.flurry.android.FlurryAgent;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -37,8 +42,6 @@ import com.revmob.RevMob;
 import com.revmob.RevMobAdsListener;
 import com.revmob.ads.fullscreen.RevMobFullscreen;
 
-import com.FaceBook.*;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Locale;
@@ -46,6 +49,7 @@ import java.util.Locale;
 import io.presage.Presage;
 import io.presage.utils.IADHandler;
 
+import com.facebook.FacebookActivity;
 import static android.content.Intent.ACTION_VIEW;
 
 public class VisitSloveniaHD extends Activity implements OnInitListener {
@@ -188,7 +192,9 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
     }
 //Definicion de la interfaz de usuario
 
-    private AdView mAdView;
+    //private AdView mAdView; // AdMob
+
+    private AdView adView;  // Facebook ad
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -196,12 +202,36 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         setContentView(R.layout.main);
 
 
+
+        RelativeLayout adViewContainer = (RelativeLayout) findViewById(R.id.adViewContainer);
+
+        adView = new AdView(this, getString(R.string.FacebookAudienceID), AdSize.BANNER_320_50);
+        adViewContainer.addView(adView);
+        adView.loadAd();
+
+       // setContentView(R.layout.activity_ad_sample);
+
+        // Instantiate an AdView view
+        //adView = new AdView(this, "816639391801383_816641235134532", AdSize.BANNER_HEIGHT_50);
+
+        // Find the main layout of your activity
+        //LinearLayout layout = (LinearLayout)findViewById(R.id.activityLayout);
+
+        // Add the ad view to your activity layout
+        //layout.addView(adView);
+
+        // Request to load an ad
+        //adView.loadAd();
+
+
         FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
 
+        /* This was for AdMob
         mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+        */
 
         Presage.getInstance().setContext(this.getBaseContext());
         Presage.getInstance().start();
@@ -1413,6 +1443,14 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
 
         }
+    }
+
+
+
+    @Override
+    protected void onDestroy() {
+        adView.destroy();
+        super.onDestroy();
     }
 
 

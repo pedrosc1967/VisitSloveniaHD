@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="15"
         android:targetSdkVersion="21" />
 
     <supports-screens
@@ -44,6 +44,11 @@
             android:configChanges="keyboardHidden|orientation"
             android:theme="@android:style/Theme.Translucent" >
         </activity>
+
+        <!-- Declare Facebook app ID -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
 
         <!-- RevMob Media ID -->
         <meta-data
@@ -110,6 +115,16 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:hardwareAccelerated="false" >
         </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1759289410974589"
+            android:exported="true" />
 
         <!-- PRESAGE LIBRARY -->
         <meta-data

@@ -8,6 +8,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
+    <!-- This is for AdMob (deprecated)
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
@@ -15,12 +16,20 @@
         android:layout_alignParentBottom="true"
         ads:adUnitId="@string/banner_ad_unit_id"
         ads:adSize="SMART_BANNER"/>
+    -->
+    <RelativeLayout
+        android:id="@+id/adViewContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
 
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/adView">
+        android:layout_above="@+id/adViewContainer">
 
         <LinearLayout
             android:orientation="vertical"

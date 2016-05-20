@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="14" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
 
     <supports-screens
         android:anyDensity="true"
@@ -103,6 +103,18 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:hardwareAccelerated="false" >
         </activity>
+
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1759289410974589"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true" />
 
         <!-- PRESAGE LIBRARY -->
         <meta-data
