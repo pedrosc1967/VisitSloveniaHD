@@ -38,6 +38,9 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.revmob.RevMob;
 import com.revmob.RevMobAdsListener;
 import com.revmob.ads.fullscreen.RevMobFullscreen;
@@ -64,7 +67,6 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
     private RevMob revmob;
 
 
-
     private RevMobFullscreen fullscreen;
     private boolean adIsLoaded = false;
 
@@ -80,22 +82,25 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
             adIsLoaded = true; // Now you can show your fullscreen whenever you want
         }
     };
-    private android.content.Context context;
+    private Context context;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     public void loadFullscreen() {
         fullscreen = revmob.createFullscreen(this, revmobListener);
     }
 
     public void showRevmobAd() {
-        if(adIsLoaded) fullscreen.show(); // call it wherever you want to show the fullscreen ad
+        if (adIsLoaded) fullscreen.show(); // call it wherever you want to show the fullscreen ad
     }
-
-
 
 
     //Definici�n del men� en menu.xml
     @Override
-    public boolean onCreateOptionsMenu(Menu menu){
+    public boolean onCreateOptionsMenu(Menu menu) {
 
         /** Inflating the current activity's menu with res/menu/items.xml */
         getMenuInflater().inflate(R.menu.menu, menu);
@@ -109,12 +114,14 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         return super.onCreateOptionsMenu(menu);
     }
 
-    /** Returns a share intent */
-    private Intent getDefaultShareIntent(){
+    /**
+     * Returns a share intent
+     */
+    private Intent getDefaultShareIntent() {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.subject1));
-        intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.extra_text1)+getString(R.string.paquete));
+        intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.extra_text1) + getString(R.string.paquete));
         return intent;
     }
 
@@ -123,10 +130,10 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.Otras_apps:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pub:\"Aabcdata\"") ) );
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pub:\"Aabcdata\"")));
                 return true;
             case R.id.Rate:
-                startActivity(new Intent(ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id="+getString(R.string.paquete)) ) );
+                startActivity(new Intent(ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + getString(R.string.paquete))));
                 return true;
             case R.id.Salir:
                 FlurryAgent.onEndSession(this);
@@ -150,8 +157,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 // Para las cookies de Google
 
 
-
-// Para Ogury
+    // Para Ogury
     @Override
     protected void onResume() {
         super.onResume();
@@ -164,13 +170,13 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
             @Override
             public void onAdNotFound() {
                 // Para LeadBolt
-                if((getString(R.string.LeadBoltCTRL).equalsIgnoreCase("true"))) {
+                if ((getString(R.string.LeadBoltCTRL).equalsIgnoreCase("true"))) {
                     //Toast.makeText(VisitSloveniaHD.this,
                     //        "Activado Leadbolt", Toast.LENGTH_LONG).show();
                     AppTracker.loadModule(getApplicationContext(), "inapp");
                 }
 
-                if (getString(R.string.revmobCTRL).equalsIgnoreCase("true")){
+                if (getString(R.string.revmobCTRL).equalsIgnoreCase("true")) {
                     //Toast.makeText(VisitSloveniaHD.this,
                     //        "Activado Revmob", Toast.LENGTH_LONG).show();
                     showRevmobAd();
@@ -201,15 +207,13 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-
-
         RelativeLayout adViewContainer = (RelativeLayout) findViewById(R.id.adViewContainer);
 
         adView = new AdView(this, getString(R.string.FacebookAudienceID), AdSize.BANNER_320_50);
         adViewContainer.addView(adView);
         adView.loadAd();
 
-       // setContentView(R.layout.activity_ad_sample);
+        // setContentView(R.layout.activity_ad_sample);
 
         // Instantiate an AdView view
         //adView = new AdView(this, "816639391801383_816641235134532", AdSize.BANNER_HEIGHT_50);
@@ -238,7 +242,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
         revmob = RevMob.startWithListener(this, revmobListener);
 
-        if(savedInstanceState == null) {
+        if (savedInstanceState == null) {
             // Initialize Leadbolt SDK with your api key
             AppTracker.startSession(getApplicationContext(), getString(R.string.LeadboltStr));
         }
@@ -248,7 +252,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         // call this when you want to display the Leadbolt Interstitial
         //AppTracker.loadModule(getApplicationContext(), "inapp");
 
-        if (getString(R.string.revmobCTRL).equalsIgnoreCase("true")){
+        if (getString(R.string.revmobCTRL).equalsIgnoreCase("true")) {
             //Toast.makeText(VisitSloveniaHD.this,
             //        "Activado Revmob", Toast.LENGTH_LONG).show();
             showRevmobAd();
@@ -279,9 +283,8 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 .setCategory("UX")
                 .setAction("click")
                 .setLabel("help popup")
-                        //  .set(Fields.SCREEN_NAME, "help popup dialog")
+                //  .set(Fields.SCREEN_NAME, "help popup dialog")
                 .build());
-
 
 
         //Esta mierda viene de Google
@@ -363,7 +366,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
             alertDialog.show();
 
             // Make the textview clickable. Must be called after show()
-            ((TextView)alertDialog.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
+            ((TextView) alertDialog.findViewById(android.R.id.message)).setMovementMethod(LinkMovementMethod.getInstance());
 
             // cambiar isFirstRun
             SharedPreferences.Editor editor = settings.edit();
@@ -374,78 +377,78 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         //Fin de la mierda de Google que no compila
 
 
-        Button holaPlayerBtn = (Button)findViewById(R.id.holaPlayerBtn);
-        Button buenosdiasPlayerBtn = (Button)findViewById(R.id.buenosdiasPlayerBtn);
-        Button adiosPlayerBtn = (Button)findViewById(R.id.adiosPlayerBtn);
-        Button buenastardesPlayerBtn = (Button)findViewById(R.id.buenastardesPlayerBtn);
-        Button buenasnochePlayerBtn = (Button)findViewById(R.id.buenasnochesPlayerBtn);
-        Button hastaluegoPlayerBtn = (Button)findViewById(R.id.hastaluegoPlayerBtn);
-        Button hastamananaPlayerBtn = (Button)findViewById(R.id.hastamananaPlayerBtn);
-        Button quetalPlayerBtn = (Button)findViewById(R.id.quetalPlayerBtn);
-        Button biengraciasPlayerBtn = (Button)findViewById(R.id.biengraciasPlayerBtn);
-        Button buenprovechoPlayerBtn = (Button)findViewById(R.id.buenprovechoPlayerBtn);
-        Button mepuedeayudarPlayerBtn = (Button)findViewById(R.id.mepuedeayudarPlayerBtn);
-        Button cuantocuestaPlayerBtn = (Button)findViewById(R.id.cuantocuestaPlayerBtn);
-        Button nohabloespanolPlayerBtn = (Button)findViewById(R.id.nohabloespanolPlayerBtn);
-        Button necesitounmedicoPlayerBtn = (Button)findViewById(R.id.necesitounmedicoPlayerBtn);
-        Button soydeeeuuPlayerBtn = (Button)findViewById(R.id.soydeeeuuPlayerBtn);
-        Button dedondeeresPlayerBtn = (Button)findViewById(R.id.dedondeeresPlayerBtn);
-        Button mellamopaulPlayerBtn = (Button)findViewById(R.id.mellamopaulPlayerBtn);
-        Button comosellamaPlayerBtn = (Button)findViewById(R.id.comosellamaPlayerBtn);
-        Button arribaPlayerBtn = (Button)findViewById(R.id.arribaPlayerBtn);
-        Button abajoPlayerBtn = (Button)findViewById(R.id.abajoPlayerBtn);
-        Button izquierdaPlayerBtn = (Button)findViewById(R.id.izquierdaPlayerBtn);
-        Button derechaPlayerBtn = (Button)findViewById(R.id.derechaPlayerBtn);
-        Button centroPlayerBtn = (Button)findViewById(R.id.centroPlayerBtn);
-        Button delantePlayerBtn = (Button)findViewById(R.id.delantePlayerBtn);
-        Button detrasPlayerBtn = (Button)findViewById(R.id.detrasPlayerBtn);
-        Button encimaPlayerBtn = (Button)findViewById(R.id.encimaPlayerBtn);
-        Button debajoPlayerBtn = (Button)findViewById(R.id.debajoPlayerBtn);
-        Button losientoPlayerBtn = (Button)findViewById(R.id.losientoPlayerBtn);
-        Button porfavorPlayerBtn = (Button)findViewById(R.id.porfavorPlayerBtn);
-        Button graciasPlayerBtn = (Button)findViewById(R.id.graciasPlayerBtn);
-        Button denadaPlayerBtn = (Button)findViewById(R.id.denadaPlayerBtn);
-        Button muchasgraciasPlayerBtn = (Button)findViewById(R.id.muchasgraciasPlayerBtn);
-        Button nograciasPlayerBtn = (Button)findViewById(R.id.nograciasPlayerBtn);
-        Button encantadoPlayerBtn = (Button)findViewById(R.id.encantadoPlayerBtn);
-        Button estabienPlayerBtn = (Button)findViewById(R.id.estabienPlayerBtn);
-        Button uncafePlayerBtn = (Button)findViewById(R.id.uncafePlayerBtn);
-        Button unacervezaPlayerBtn = (Button)findViewById(R.id.unacervezaPlayerBtn);
-        Button elbanoPlayerBtn = (Button)findViewById(R.id.elbanoPlayerBtn);
-        Button lacartaPlayerBtn = (Button)findViewById(R.id.lacartaPlayerBtn);
-        Button unatortillaPlayerBtn = (Button)findViewById(R.id.unatortillaPlayerBtn);
-        Button unapaellaPlayerBtn = (Button)findViewById(R.id.unapaellaPlayerBtn);
-        Button lacuentaPlayerBtn = (Button)findViewById(R.id.lacuentaPlayerBtn);
-        Button desayunoPlayerBtn = (Button)findViewById(R.id.desayunoPlayerBtn);
-        Button comidaPlayerBtn = (Button)findViewById(R.id.comidaPlayerBtn);
-        Button cenaPlayerBtn = (Button)findViewById(R.id.cenaPlayerBtn);
-        Button cucharaPlayerBtn = (Button)findViewById(R.id.cucharaPlayerBtn);
-        Button tenedorPlayerBtn = (Button)findViewById(R.id.tenedorPlayerBtn);
-        Button cuchilloPlayerBtn = (Button)findViewById(R.id.cuchilloPlayerBtn);
-        Button panPlayerBtn = (Button)findViewById(R.id.panPlayerBtn);
-        Button vasoPlayerBtn = (Button)findViewById(R.id.vasoPlayerBtn);
-        Button aguaPlayerBtn = (Button)findViewById(R.id.aguaPlayerBtn);
-        Button servilletaPlayerBtn = (Button)findViewById(R.id.servilletaPlayerBtn);
-        Button camareroPlayerBtn = (Button)findViewById(R.id.camareroPlayerBtn);
-        Button megustaPlayerBtn = (Button)findViewById(R.id.megustaPlayerBtn);
-        Button siPlayerBtn = (Button)findViewById(R.id.siPlayerBtn);
-        Button noPlayerBtn = (Button)findViewById(R.id.noPlayerBtn);
-        Button esposiblePlayerBtn = (Button)findViewById(R.id.esposiblePlayerBtn);
-        Button nuncaPlayerBtn = (Button)findViewById(R.id.nuncaPlayerBtn);
-        Button siemprePlayerBtn = (Button)findViewById(R.id.siemprePlayerBtn);
-        Button avecesPlayerBtn = (Button)findViewById(R.id.avecesPlayerBtn);
-        Button hoyPlayerBtn = (Button)findViewById(R.id.hoyPlayerBtn);
-        Button ayerPlayerBtn = (Button)findViewById(R.id.ayerPlayerBtn);
-        Button mananaPlayerBtn = (Button)findViewById(R.id.mananaPlayerBtn);
-        Button cochePlayerBtn = (Button)findViewById(R.id.cochePlayerBtn);
-        Button avionPlayerBtn = (Button)findViewById(R.id.avionPlayerBtn);
-        Button trenPlayerBtn = (Button)findViewById(R.id.trenPlayerBtn);
-        Button autobusPlayerBtn = (Button)findViewById(R.id.autobusPlayerBtn);
-        Button bicicletaPlayerBtn = (Button)findViewById(R.id.bicicletaPlayerBtn);
-        Button hotelPlayerBtn = (Button)findViewById(R.id.hotelPlayerBtn);
-        Button habitacionPlayerBtn = (Button)findViewById(R.id.habitacionPlayerBtn);
-        Button habitacionreservadaPlayerBtn = (Button)findViewById(R.id.habitacionreservadaPlayerBtn);
-        Button hastaprontoPlayerBtn = (Button)findViewById(R.id.hastaprontoPlayerBtn);
+        Button holaPlayerBtn = (Button) findViewById(R.id.holaPlayerBtn);
+        Button buenosdiasPlayerBtn = (Button) findViewById(R.id.buenosdiasPlayerBtn);
+        Button adiosPlayerBtn = (Button) findViewById(R.id.adiosPlayerBtn);
+        Button buenastardesPlayerBtn = (Button) findViewById(R.id.buenastardesPlayerBtn);
+        Button buenasnochePlayerBtn = (Button) findViewById(R.id.buenasnochesPlayerBtn);
+        Button hastaluegoPlayerBtn = (Button) findViewById(R.id.hastaluegoPlayerBtn);
+        Button hastamananaPlayerBtn = (Button) findViewById(R.id.hastamananaPlayerBtn);
+        Button quetalPlayerBtn = (Button) findViewById(R.id.quetalPlayerBtn);
+        Button biengraciasPlayerBtn = (Button) findViewById(R.id.biengraciasPlayerBtn);
+        Button buenprovechoPlayerBtn = (Button) findViewById(R.id.buenprovechoPlayerBtn);
+        Button mepuedeayudarPlayerBtn = (Button) findViewById(R.id.mepuedeayudarPlayerBtn);
+        Button cuantocuestaPlayerBtn = (Button) findViewById(R.id.cuantocuestaPlayerBtn);
+        Button nohabloespanolPlayerBtn = (Button) findViewById(R.id.nohabloespanolPlayerBtn);
+        Button necesitounmedicoPlayerBtn = (Button) findViewById(R.id.necesitounmedicoPlayerBtn);
+        Button soydeeeuuPlayerBtn = (Button) findViewById(R.id.soydeeeuuPlayerBtn);
+        Button dedondeeresPlayerBtn = (Button) findViewById(R.id.dedondeeresPlayerBtn);
+        Button mellamopaulPlayerBtn = (Button) findViewById(R.id.mellamopaulPlayerBtn);
+        Button comosellamaPlayerBtn = (Button) findViewById(R.id.comosellamaPlayerBtn);
+        Button arribaPlayerBtn = (Button) findViewById(R.id.arribaPlayerBtn);
+        Button abajoPlayerBtn = (Button) findViewById(R.id.abajoPlayerBtn);
+        Button izquierdaPlayerBtn = (Button) findViewById(R.id.izquierdaPlayerBtn);
+        Button derechaPlayerBtn = (Button) findViewById(R.id.derechaPlayerBtn);
+        Button centroPlayerBtn = (Button) findViewById(R.id.centroPlayerBtn);
+        Button delantePlayerBtn = (Button) findViewById(R.id.delantePlayerBtn);
+        Button detrasPlayerBtn = (Button) findViewById(R.id.detrasPlayerBtn);
+        Button encimaPlayerBtn = (Button) findViewById(R.id.encimaPlayerBtn);
+        Button debajoPlayerBtn = (Button) findViewById(R.id.debajoPlayerBtn);
+        Button losientoPlayerBtn = (Button) findViewById(R.id.losientoPlayerBtn);
+        Button porfavorPlayerBtn = (Button) findViewById(R.id.porfavorPlayerBtn);
+        Button graciasPlayerBtn = (Button) findViewById(R.id.graciasPlayerBtn);
+        Button denadaPlayerBtn = (Button) findViewById(R.id.denadaPlayerBtn);
+        Button muchasgraciasPlayerBtn = (Button) findViewById(R.id.muchasgraciasPlayerBtn);
+        Button nograciasPlayerBtn = (Button) findViewById(R.id.nograciasPlayerBtn);
+        Button encantadoPlayerBtn = (Button) findViewById(R.id.encantadoPlayerBtn);
+        Button estabienPlayerBtn = (Button) findViewById(R.id.estabienPlayerBtn);
+        Button uncafePlayerBtn = (Button) findViewById(R.id.uncafePlayerBtn);
+        Button unacervezaPlayerBtn = (Button) findViewById(R.id.unacervezaPlayerBtn);
+        Button elbanoPlayerBtn = (Button) findViewById(R.id.elbanoPlayerBtn);
+        Button lacartaPlayerBtn = (Button) findViewById(R.id.lacartaPlayerBtn);
+        Button unatortillaPlayerBtn = (Button) findViewById(R.id.unatortillaPlayerBtn);
+        Button unapaellaPlayerBtn = (Button) findViewById(R.id.unapaellaPlayerBtn);
+        Button lacuentaPlayerBtn = (Button) findViewById(R.id.lacuentaPlayerBtn);
+        Button desayunoPlayerBtn = (Button) findViewById(R.id.desayunoPlayerBtn);
+        Button comidaPlayerBtn = (Button) findViewById(R.id.comidaPlayerBtn);
+        Button cenaPlayerBtn = (Button) findViewById(R.id.cenaPlayerBtn);
+        Button cucharaPlayerBtn = (Button) findViewById(R.id.cucharaPlayerBtn);
+        Button tenedorPlayerBtn = (Button) findViewById(R.id.tenedorPlayerBtn);
+        Button cuchilloPlayerBtn = (Button) findViewById(R.id.cuchilloPlayerBtn);
+        Button panPlayerBtn = (Button) findViewById(R.id.panPlayerBtn);
+        Button vasoPlayerBtn = (Button) findViewById(R.id.vasoPlayerBtn);
+        Button aguaPlayerBtn = (Button) findViewById(R.id.aguaPlayerBtn);
+        Button servilletaPlayerBtn = (Button) findViewById(R.id.servilletaPlayerBtn);
+        Button camareroPlayerBtn = (Button) findViewById(R.id.camareroPlayerBtn);
+        Button megustaPlayerBtn = (Button) findViewById(R.id.megustaPlayerBtn);
+        Button siPlayerBtn = (Button) findViewById(R.id.siPlayerBtn);
+        Button noPlayerBtn = (Button) findViewById(R.id.noPlayerBtn);
+        Button esposiblePlayerBtn = (Button) findViewById(R.id.esposiblePlayerBtn);
+        Button nuncaPlayerBtn = (Button) findViewById(R.id.nuncaPlayerBtn);
+        Button siemprePlayerBtn = (Button) findViewById(R.id.siemprePlayerBtn);
+        Button avecesPlayerBtn = (Button) findViewById(R.id.avecesPlayerBtn);
+        Button hoyPlayerBtn = (Button) findViewById(R.id.hoyPlayerBtn);
+        Button ayerPlayerBtn = (Button) findViewById(R.id.ayerPlayerBtn);
+        Button mananaPlayerBtn = (Button) findViewById(R.id.mananaPlayerBtn);
+        Button cochePlayerBtn = (Button) findViewById(R.id.cochePlayerBtn);
+        Button avionPlayerBtn = (Button) findViewById(R.id.avionPlayerBtn);
+        Button trenPlayerBtn = (Button) findViewById(R.id.trenPlayerBtn);
+        Button autobusPlayerBtn = (Button) findViewById(R.id.autobusPlayerBtn);
+        Button bicicletaPlayerBtn = (Button) findViewById(R.id.bicicletaPlayerBtn);
+        Button hotelPlayerBtn = (Button) findViewById(R.id.hotelPlayerBtn);
+        Button habitacionPlayerBtn = (Button) findViewById(R.id.habitacionPlayerBtn);
+        Button habitacionreservadaPlayerBtn = (Button) findViewById(R.id.habitacionreservadaPlayerBtn);
+        Button hastaprontoPlayerBtn = (Button) findViewById(R.id.hastaprontoPlayerBtn);
 
         Intent checkIntent = new Intent();
         checkIntent.setAction(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA);
@@ -456,10 +459,9 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
 
 //Lo que hace el bot�n "Hola"
-        holaPlayerBtn.setOnClickListener(new OnClickListener(){
+        holaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
 
                 String cadena = getString(R.string.di_hola);
                 try {
@@ -470,13 +472,13 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Buenos D�as"
-        buenosdiasPlayerBtn.setOnClickListener(new OnClickListener(){
+        buenosdiasPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
 
 
                 String cadena = getString(R.string.di_buenosdias);
@@ -488,13 +490,13 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Adios"
-        adiosPlayerBtn.setOnClickListener(new OnClickListener(){
+        adiosPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_adios);
 
                 try {
@@ -503,13 +505,13 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Buenas Tardes"
-        buenastardesPlayerBtn.setOnClickListener(new OnClickListener(){
+        buenastardesPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_buenas_tardes);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
@@ -519,13 +521,13 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Buenas Noches"
-        buenasnochePlayerBtn.setOnClickListener(new OnClickListener(){
+        buenasnochePlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_buenas_noches);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
@@ -535,13 +537,13 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Hasta Luego"
-        hastaluegoPlayerBtn.setOnClickListener(new OnClickListener(){
+        hastaluegoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_hasta_luego);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
@@ -551,869 +553,913 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Hasta Ma�ana"
-        hastamananaPlayerBtn.setOnClickListener(new OnClickListener(){
+        hastamananaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_hasta_manana);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Qu� tal"
-        quetalPlayerBtn.setOnClickListener(new OnClickListener(){
+        quetalPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_quetal);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Bien, gracias"
-        biengraciasPlayerBtn.setOnClickListener(new OnClickListener(){
+        biengraciasPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_bien_gracias);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Buen provecho"
-        buenprovechoPlayerBtn.setOnClickListener(new OnClickListener(){
+        buenprovechoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_buen_provecho);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "�Me puede ayudar?"
-        mepuedeayudarPlayerBtn.setOnClickListener(new OnClickListener(){
+        mepuedeayudarPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_me_puede_ayudar);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "�Cuanto cuesta?"
-        cuantocuestaPlayerBtn.setOnClickListener(new OnClickListener(){
+        cuantocuestaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_cuanto_cuesta);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "No hablo espa�ol"
-        nohabloespanolPlayerBtn.setOnClickListener(new OnClickListener(){
+        nohabloespanolPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_no_hablo_espanol);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Necesito un m�dico"
-        necesitounmedicoPlayerBtn.setOnClickListener(new OnClickListener(){
+        necesitounmedicoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_necesito_un_medico);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Soy de EEUU"
-        soydeeeuuPlayerBtn.setOnClickListener(new OnClickListener(){
+        soydeeeuuPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_soy_de_eeuu);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "�De donde eres?"
-        dedondeeresPlayerBtn.setOnClickListener(new OnClickListener(){
+        dedondeeresPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_de_donde_eres);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Me llamo Paul"
-        mellamopaulPlayerBtn.setOnClickListener(new OnClickListener(){
+        mellamopaulPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_me_llamo_paul);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "�Como se llama?"
-        comosellamaPlayerBtn.setOnClickListener(new OnClickListener(){
+        comosellamaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_como_se_llama);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Arriba"
-        arribaPlayerBtn.setOnClickListener(new OnClickListener(){
+        arribaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_arriba);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Abajo"
-        abajoPlayerBtn.setOnClickListener(new OnClickListener(){
+        abajoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_abajo);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Izquierda"
-        izquierdaPlayerBtn.setOnClickListener(new OnClickListener(){
+        izquierdaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_izquierda);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Derecha"
-        derechaPlayerBtn.setOnClickListener(new OnClickListener(){
+        derechaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_derecha);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 
 //Lo que hace el bot�n "Centro"
-        centroPlayerBtn.setOnClickListener(new OnClickListener(){
+        centroPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_centro);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Delante"
-        delantePlayerBtn.setOnClickListener(new OnClickListener(){
+        delantePlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_delante);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Detr�s"
-        detrasPlayerBtn.setOnClickListener(new OnClickListener(){
+        detrasPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_detras);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Encima"
-        encimaPlayerBtn.setOnClickListener(new OnClickListener(){
+        encimaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_encima);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Debajo"
-        debajoPlayerBtn.setOnClickListener(new OnClickListener(){
+        debajoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_debajo);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Lo siento"
-        losientoPlayerBtn.setOnClickListener(new OnClickListener(){
+        losientoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_lo_siento);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Por favor"
-        porfavorPlayerBtn.setOnClickListener(new OnClickListener(){
+        porfavorPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_por_favor);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Gracias"
-        graciasPlayerBtn.setOnClickListener(new OnClickListener(){
+        graciasPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_gracias);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "De nada"
-        denadaPlayerBtn.setOnClickListener(new OnClickListener(){
+        denadaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_de_nada);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Muchas gracias"
-        muchasgraciasPlayerBtn.setOnClickListener(new OnClickListener(){
+        muchasgraciasPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_muchas_gracias);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "No gracias"
-        nograciasPlayerBtn.setOnClickListener(new OnClickListener(){
+        nograciasPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_no_gracias);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Encantado"
-        encantadoPlayerBtn.setOnClickListener(new OnClickListener(){
+        encantadoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_encantado);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Est� bien"
-        estabienPlayerBtn.setOnClickListener(new OnClickListener(){
+        estabienPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_esta_bien);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Un cafe"
-        uncafePlayerBtn.setOnClickListener(new OnClickListener(){
+        uncafePlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_un_cafe);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Una cerveza"
-        unacervezaPlayerBtn.setOnClickListener(new OnClickListener(){
+        unacervezaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_una_cerveza);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "El ba�o"
-        elbanoPlayerBtn.setOnClickListener(new OnClickListener(){
+        elbanoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_el_bano);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "La carta"
-        lacartaPlayerBtn.setOnClickListener(new OnClickListener(){
+        lacartaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_la_carta);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Una tortilla"
-        unatortillaPlayerBtn.setOnClickListener(new OnClickListener(){
+        unatortillaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_una_tortilla);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Una paella"
-        unapaellaPlayerBtn.setOnClickListener(new OnClickListener(){
+        unapaellaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_una_paella);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "La cuenta"
-        lacuentaPlayerBtn.setOnClickListener(new OnClickListener(){
+        lacuentaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_la_cuenta);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Desayuno"
-        desayunoPlayerBtn.setOnClickListener(new OnClickListener(){
+        desayunoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_desayuno);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Comida"
-        comidaPlayerBtn.setOnClickListener(new OnClickListener(){
+        comidaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_comida);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Cena"
-        cenaPlayerBtn.setOnClickListener(new OnClickListener(){
+        cenaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_cena);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Cuchara"
-        cucharaPlayerBtn.setOnClickListener(new OnClickListener(){
+        cucharaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_cuchara);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Tenedor"
-        tenedorPlayerBtn.setOnClickListener(new OnClickListener(){
+        tenedorPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_tenedor);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Cuchillo"
-        cuchilloPlayerBtn.setOnClickListener(new OnClickListener(){
+        cuchilloPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_cuchillo);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Pan"
-        panPlayerBtn.setOnClickListener(new OnClickListener(){
+        panPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_pan);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Vaso"
-        vasoPlayerBtn.setOnClickListener(new OnClickListener(){
+        vasoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_vaso);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Agua"
-        aguaPlayerBtn.setOnClickListener(new OnClickListener(){
+        aguaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_agua);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Servilleta"
-        servilletaPlayerBtn.setOnClickListener(new OnClickListener(){
+        servilletaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_servilleta);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Camarero"
-        camareroPlayerBtn.setOnClickListener(new OnClickListener(){
+        camareroPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_camarero);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Me gusta"
-        megustaPlayerBtn.setOnClickListener(new OnClickListener(){
+        megustaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_me_gusta);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "S�"
-        siPlayerBtn.setOnClickListener(new OnClickListener(){
+        siPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_si);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "No"
-        noPlayerBtn.setOnClickListener(new OnClickListener(){
+        noPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_no);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Es posible"
-        esposiblePlayerBtn.setOnClickListener(new OnClickListener(){
+        esposiblePlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_es_posible);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Nunca"
-        nuncaPlayerBtn.setOnClickListener(new OnClickListener(){
+        nuncaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_nunca);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Siempre"
-        siemprePlayerBtn.setOnClickListener(new OnClickListener(){
+        siemprePlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_siempre);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "A veces"
-        avecesPlayerBtn.setOnClickListener(new OnClickListener(){
+        avecesPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_a_veces);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Hoy"
-        hoyPlayerBtn.setOnClickListener(new OnClickListener(){
+        hoyPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_hoy);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Ayer"
-        ayerPlayerBtn.setOnClickListener(new OnClickListener(){
+        ayerPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_ayer);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Ma�ana"
-        mananaPlayerBtn.setOnClickListener(new OnClickListener(){
+        mananaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_manana);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Coche"
-        cochePlayerBtn.setOnClickListener(new OnClickListener(){
+        cochePlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_coche);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Avi�n"
-        avionPlayerBtn.setOnClickListener(new OnClickListener(){
+        avionPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_avion);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Tren"
-        trenPlayerBtn.setOnClickListener(new OnClickListener(){
+        trenPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_tren);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Autobus"
-        autobusPlayerBtn.setOnClickListener(new OnClickListener(){
+        autobusPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_autobus);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Bicicleta"
-        bicicletaPlayerBtn.setOnClickListener(new OnClickListener(){
+        bicicletaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_bicicleta);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Hotel"
-        hotelPlayerBtn.setOnClickListener(new OnClickListener(){
+        hotelPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_hotel);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Habitaci�n"
-        habitacionPlayerBtn.setOnClickListener(new OnClickListener(){
+        habitacionPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_habitacion);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Habitaci�n reservada"
-        habitacionreservadaPlayerBtn.setOnClickListener(new OnClickListener(){
+        habitacionreservadaPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_habitacion_reservada);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Lo que hace el bot�n "Hasta pronto"
-        hastaprontoPlayerBtn.setOnClickListener(new OnClickListener(){
+        hastaprontoPlayerBtn.setOnClickListener(new OnClickListener() {
             @Override
-            public void onClick(View view)
-            {
+            public void onClick(View view) {
                 String cadena = getString(R.string.di_hasta_pronto);
                 try {
                     mTts.speak(cadena, TextToSpeech.QUEUE_FLUSH, null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-            }});
+            }
+        });
 
 //Aqui se ponen m�s botones
 
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "VisitSloveniaHD Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://com.visit.slovenia.hd/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(client, viewAction);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "VisitSloveniaHD Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://com.visit.slovenia.hd/http/host/path")
+        );
+        AppIndex.AppIndexApi.end(client, viewAction);
+        client.disconnect();
     }
 
 
@@ -1446,7 +1492,6 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
     }
 
 
-
     @Override
     protected void onDestroy() {
         adView.destroy();
@@ -1466,8 +1511,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
             String cadena1 = getString(R.string.toast_tts_inicializado);
             Toast.makeText(VisitSloveniaHD.this,
                     cadena1, Toast.LENGTH_LONG).show();
-        }
-        else if (status == TextToSpeech.ERROR) {
+        } else if (status == TextToSpeech.ERROR) {
             String cadena1 = getString(R.string.toast_tts_error);
             Toast.makeText(VisitSloveniaHD.this,
                     cadena1, Toast.LENGTH_LONG).show();
@@ -1486,8 +1530,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 Toast.makeText(VisitSloveniaHD.this,
                         cadena1, Toast.LENGTH_LONG).show();
 
-            }
-            else {
+            } else {
                 // missing data, install it
                 Intent installIntent = new Intent();
                 installIntent.setAction(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA);
