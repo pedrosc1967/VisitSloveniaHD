@@ -155,8 +155,8 @@
 	<string name="Rate">Puntuar</string>
 	<string name="about">Acerca de</string>
 	<string name="subject1">Mira que aplicación más chula!</string>
-	<string name="textoabout">Concepto por Mymma Soto \\ndesarrollado por Aabcdata \\nLos iconos de los iconos Tierra \\nhttp://www.icons-land.com</string>
+	<string name="textoabout">Concepto por Mymma Soto \nDesarrollado por Aabcdata \nIconos de Icons Land \nhttp://www.icons-land.com</string>
 	<string name="version">Versión</string>
-	<string name="extra_text1">Esta aplicación es muy útil!  NIntente él! \nhttps://play.google.com/store/apps/details?id=</string>
+	<string name="extra_text1">Esta aplicación es muy útil!  \nPruébala \nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">De acuerdo con la Directiva 2002/58 / CE del Parlamento Europeo y del Consejo, se informa que este sitio de identificadores de dispositivos se utilizan para personalizar contenido y anuncios, con el fin de proporcionar funciones de medios sociales y para analizar el tráfico. También compartimos estos identificadores y otra información de su dispositivo con nuestros socios de los medios sociales, publicidad y análisis web. Más detalles sobre http://la-gatera.hol.es</string>
 </resources>

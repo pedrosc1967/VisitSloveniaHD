@@ -22,7 +22,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.ShareActionProvider;
 import android.widget.TextView;
@@ -31,10 +30,9 @@ import android.widget.Toast;
 import com.apptracker.android.track.AppTracker;
 import com.facebook.FacebookSdk;
 import com.facebook.ads.AdSize;
+import com.facebook.ads.AdView;
 import com.facebook.appevents.AppEventsLogger;
 import com.flurry.android.FlurryAgent;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
@@ -46,14 +44,15 @@ import com.revmob.RevMobAdsListener;
 import com.revmob.ads.fullscreen.RevMobFullscreen;
 
 import java.io.IOException;
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Locale;
 
 import io.presage.Presage;
 import io.presage.utils.IADHandler;
 
-import com.facebook.FacebookActivity;
 import static android.content.Intent.ACTION_VIEW;
+import static com.visit.slovenia.hd.R.string.FacebookAudienceID;
 
 public class VisitSloveniaHD extends Activity implements OnInitListener {
 
@@ -207,10 +206,16 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        RelativeLayout adViewContainer = (RelativeLayout) findViewById(R.id.adViewContainer);
+        // Instantiate an AdView view
+        adView = new AdView(this, getString(FacebookAudienceID), AdSize.BANNER_HEIGHT_50);
 
-        adView = new AdView(this, getString(R.string.FacebookAudienceID), AdSize.BANNER_320_50);
-        adViewContainer.addView(adView);
+        // Find the main layout of your activity
+
+        //RelativeLayout adViewContainer = (RelativeLayout) findViewById(R.id.adViewContainer);
+        RelativeLayout layout = (RelativeLayout)findViewById(R.id.adViewContainer);
+        layout.addView(adView);
+       // adViewContainer.addView(adView);
+
         adView.loadAd();
 
         // setContentView(R.layout.activity_ad_sample);
@@ -1469,8 +1474,12 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
             PackageInfo pInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), PackageManager.GET_META_DATA);
             String versionInfo = pInfo.versionName;
 
-            String aboutTitle = String.format(context.getString(R.string.about) + " %s", context.getString(R.string.app_name));
-            String versionString = String.format(context.getString(R.string.version) + " %s", versionInfo);
+
+            String aboutTitle = MessageFormat.format("Circa {0} Visita la Slovenia HD", new Object [] {R.string.about});
+            String versionString = MessageFormat.format(String.valueOf(R.string.version), new Object [] {R.string.version});
+
+            //String aboutTitle = String.format(context.getString(R.string.about) + " %s", context.getString(R.string.app_name));
+            //String versionString = String.format(context.getString(R.string.version) + " %s", versionInfo);
             String aboutText = context.getString(R.string.textoabout);
 
             // Set up the TextView

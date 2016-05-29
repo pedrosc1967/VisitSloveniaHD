@@ -494,10 +494,10 @@ int drawable messenger_button_blue_bg_selector 0x7f020088
 int drawable messenger_button_send_round_shadow 0x7f020089
 int drawable messenger_button_white_bg_round 0x7f02008a
 int drawable messenger_button_white_bg_selector 0x7f02008b
-int id Acerca 0x7f0e00ac
-int id Otras_apps 0x7f0e00ab
-int id Rate 0x7f0e00ad
-int id Salir 0x7f0e00ae
+int id Acerca 0x7f0e00ab
+int id Otras_apps 0x7f0e00aa
+int id Rate 0x7f0e00ac
+int id Salir 0x7f0e00ad
 int id abajoPlayerBtn 0x7f0e0073
 int id action_bar 0x7f0e0049
 int id action_bar_activity_content 0x7f0e0000
@@ -513,7 +513,6 @@ int id action_mode_bar 0x7f0e0046
 int id action_mode_bar_stub 0x7f0e0045
 int id action_mode_close_button 0x7f0e0038
 int id activity_chooser_view_content 0x7f0e0039
-int id adView 0x7f0e00a8
 int id adViewContainer 0x7f0e005e
 int id adiosPlayerBtn 0x7f0e0061
 int id adjust_height 0x7f0e0016
@@ -607,9 +606,9 @@ int id losientoPlayerBtn 0x7f0e007b
 int id mananaPlayerBtn 0x7f0e009e
 int id megustaPlayerBtn 0x7f0e0095
 int id mellamopaulPlayerBtn 0x7f0e0071
-int id menu_share 0x7f0e00aa
+int id menu_share 0x7f0e00a9
 int id mepuedeayudarPlayerBtn 0x7f0e006a
-int id messenger_send_button 0x7f0e00a9
+int id messenger_send_button 0x7f0e00a8
 int id middle 0x7f0e0015
 int id muchasgraciasPlayerBtn 0x7f0e007f
 int id necesitounmedicoPlayerBtn 0x7f0e006d
