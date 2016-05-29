@@ -161,17 +161,17 @@
     <string name="action_share" translatable="false">Share</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8829538089345362/9482756910</string>
     <string name="OguryStr" translatable="false">266881</string>
-    <string name="flurry" translatable="false">PMMSTWC7CRCW7F5B8R74</string>
+    <string name="flurry" translatable="false">R3DFQZSPQPCHD62GKWRF</string>
     <string name="paquete" translatable="false">com.visit.slovenia.hd</string>
     <string name="analyticsstr" translatable="false">UA-56811260-34</string>
-    <string name="LeadboltStr" translatable="false">Tj4NZNcrXJ2VkYZUHd11a5WoobOqGrJp</string>
-    <string name="revmobstr" translatable="false">55ca1ab9eb24fbda68c63f3e</string>
-    <string name="facebook_app_id">1759289410974589</string>
+    <string name="LeadboltStr" translatable="false">imMSa50oVJNUXNtrTCZDm5H91KFhWSQo</string>
+    <string name="revmobstr" translatable="false">574b2e8b38f7ab820bae34af</string>
+    <string name="facebook_app_id" translatable="false">1759289410974589</string>
     <string name="LeadBoltCTRL" translatable="false">true</string>
     <string name="revmobCTRL" translatable="false">false</string>
     <string name="cookies" translatable="false">Cookies</string>
     <string name="mensaje_cookies">Secondo la direttiva 2002/58 / CE del Parlamento europeo e del Consiglio viene informato che questo dispositivo sito identificativi vengono utilizzati per personalizzare i contenuti e gli annunci, al fine di fornire funzionalità di social media e per analizzare il traffico. Condividiamo anche questi identificatori e altre informazioni sul dispositivo con i nostri partner di social media, pubblicità e Web Analytics. Maggiori dettagli su http://la-gatera.hol.es</string>
-    <string name="FacebookAudienceID">816639391801383_816641235134532</string>
+    <string name="FacebookAudienceID" translatable="false">816639391801383_816641235134532</string>
 </resources>
 
 

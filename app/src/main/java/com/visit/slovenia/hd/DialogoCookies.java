@@ -4,9 +4,6 @@ package com.visit.slovenia.hd;
  * Created by pedrosantangelocalvo on 12/8/15.
  * * /
 
-
-
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.text.Html;

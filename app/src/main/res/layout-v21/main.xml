@@ -18,9 +18,6 @@
         android:layout_alignParentBottom="true"
         ads:adUnitId="@string/banner_ad_unit_id"
         ads:adSize="SMART_BANNER" />
-
-
-        <RelativeLayout...
     -->
 
 
