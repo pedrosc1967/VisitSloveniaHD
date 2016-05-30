@@ -129,7 +129,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.Otras_apps:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pub:\"Aabcdata\"")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/search?q=Aabcdata&c=apps")));
                 return true;
             case R.id.Rate:
                 startActivity(new Intent(ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + getString(R.string.paquete))));
@@ -294,6 +294,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
         //Esta mierda viene de Google
 
+
         boolean pertenece;
         String locale = "";
 
@@ -376,7 +377,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
             // cambiar isFirstRun
             SharedPreferences.Editor editor = settings.edit();
             editor.putBoolean("isFirstRun", false);
-            editor.commit();
+            editor.apply();
         }
 
         //Fin de la mierda de Google que no compila
