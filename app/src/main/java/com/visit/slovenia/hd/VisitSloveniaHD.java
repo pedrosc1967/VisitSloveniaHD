@@ -205,11 +205,12 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        setContentView(R.layout.vocabulario);
 
         // Instantiate an AdView view
         adView = new AdView(this, getString(FacebookAudienceID), AdSize.BANNER_HEIGHT_50);
 
-        // Find the main layout of your activity
+        // Find the Vocabulario layout of your activity
 
         //RelativeLayout adViewContainer = (RelativeLayout) findViewById(R.id.adViewContainer);
         RelativeLayout layout = (RelativeLayout)findViewById(R.id.adViewContainer);
@@ -223,7 +224,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         // Instantiate an AdView view
         //adView = new AdView(this, "816639391801383_816641235134532", AdSize.BANNER_HEIGHT_50);
 
-        // Find the main layout of your activity
+        // Find the Vocabulario layout of your activity
         //LinearLayout layout = (LinearLayout)findViewById(R.id.activityLayout);
 
         // Add the ad view to your activity layout
@@ -274,8 +275,8 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         tracker.enableAutoActivityTracking(true);
 
 
-// All subsequent hits will be send with screen name = "main screen"
-        tracker.setScreenName("main screen");
+// All subsequent hits will be send with screen name = "Vocabulario screen"
+        tracker.setScreenName("Vocabulario screen");
 
         tracker.send(new HitBuilders.EventBuilder()
                 .setCategory("UX")
@@ -382,7 +383,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
         //Fin de la mierda de Google que no compila
 
-
+        Button buttonVocabulary = (Button) findViewById(R.id.buttonVocabulary);
         Button holaPlayerBtn = (Button) findViewById(R.id.holaPlayerBtn);
         Button buenosdiasPlayerBtn = (Button) findViewById(R.id.buenosdiasPlayerBtn);
         Button adiosPlayerBtn = (Button) findViewById(R.id.adiosPlayerBtn);
@@ -462,6 +463,23 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
 //Id de Flurry	
         FlurryAgent.onStartSession(this, getString(R.string.flurry));
+
+
+//Lo que hace el bot�n "Vocabulario"
+        buttonVocabulary.setOnClickListener(new OnClickListener(){
+            @Override
+            public void onClick(View view)
+            {
+//Se abre un nuevo Intent con el primer botón
+                try
+                {
+                    {
+                        Intent myIntent = new Intent(view.getContext(), Vocabulario.class);
+                        startActivityForResult(myIntent, 0);}
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }});
 
 
 //Lo que hace el bot�n "Hola"

@@ -45,6 +45,7 @@
             android:configChanges="keyboardHidden|orientation">
         </activity>
 
+
         <!-- Declare Facebook app ID -->
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
 
@@ -111,6 +112,8 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:label="@string/app_name" />
 
+        <activity android:name=".Vocabulario"
+            android:label="@string/vocabulario"/>
 
         <provider android:authorities="com.facebook.app.FacebookContentProvider1759289410974589"
             android:name="com.facebook.FacebookContentProvider"
