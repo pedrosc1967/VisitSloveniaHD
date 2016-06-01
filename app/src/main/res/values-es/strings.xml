@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <resources>
 	<string name="app_name">Visita Eslovenia HD</string>
-	<string name="toast_tts_inicializado">motor de texto a voz se ha inicializado</string>
+	<string name="toast_tts_inicializado">Se ha inicializado el motor de texto a voz </string>
 	<string name="toast_tts_error">Se produjo un error al inicializar Text-To-Speech Engine</string>
 	<string name="toast_redir">Volver a dirigir a Google Play para instalar motor de texto a discurso</string>
 	<string name="toast_set_language">Establecer el idioma TTS al Esloveno</string>
@@ -159,5 +159,4 @@
 	<string name="version">Versión</string>
 	<string name="extra_text1">Esta aplicación es muy útil!  \nPruébala \nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">De acuerdo con la Directiva 2002/58 / CE del Parlamento Europeo y del Consejo, se informa que este sitio de identificadores de dispositivos se utilizan para personalizar contenido y anuncios, con el fin de proporcionar funciones de medios sociales y para analizar el tráfico. También compartimos estos identificadores y otra información de su dispositivo con nuestros socios de los medios sociales, publicidad y análisis web. Más detalles sobre http://la-gatera.hol.es</string>
-	<string name="vocabulario">Vocabulario</string>
 </resources>

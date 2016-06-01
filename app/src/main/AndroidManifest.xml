@@ -113,7 +113,13 @@
             android:label="@string/app_name" />
 
         <activity android:name=".Vocabulario"
-            android:label="@string/vocabulario"/>
+            android:label="@string/vocabulario">
+            <intent-filter>
+                <action android:name="com.visit.slovenia.hd.Vocabulario" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
 
         <provider android:authorities="com.facebook.app.FacebookContentProvider1759289410974589"
             android:name="com.facebook.FacebookContentProvider"

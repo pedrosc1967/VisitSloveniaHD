@@ -122,7 +122,13 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
             android:name="com.visit.slovenia.hd.Vocabulario"
-            android:label="@string/vocabulario" />
+            android:label="@string/vocabulario" >
+            <intent-filter>
+                <action android:name="com.visit.slovenia.hd.Vocabulario" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <provider
             android:name="com.facebook.FacebookContentProvider"
