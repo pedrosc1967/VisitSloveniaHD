@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -461,11 +460,10 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
     public static class AboutDialogBuilder {
         public static AlertDialog create(Context context) throws PackageManager.NameNotFoundException {
             // Try to load the a package matching the name of our own package
-            PackageInfo pInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), PackageManager.GET_META_DATA);
-            String versionInfo = pInfo.versionName;
+           // PackageInfo pInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+           // String versionInfo = pInfo.versionName;
 
-
-            String aboutTitle = MessageFormat.format("Circa {0} Visita la Slovenia HD", new Object [] {R.string.about});
+            String aboutTitle = MessageFormat.format("Visita la Slovenia HD", new Object [] {R.string.about});
             String versionString = MessageFormat.format(String.valueOf(R.string.version), new Object [] {R.string.version});
 
             //String aboutTitle = String.format(context.getString(R.string.about) + " %s", context.getString(R.string.app_name));
@@ -485,11 +483,8 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
             Linkify.addLinks(message, Linkify.ALL);
             return new AlertDialog.Builder(context).setTitle(aboutTitle).setCancelable(true).setIcon(R.mipmap.ic_launcher).setPositiveButton(
                     context.getString(android.R.string.ok), null).setView(message).create();
-
-
         }
     }
-
 
     @Override
     protected void onDestroy() {
@@ -497,14 +492,11 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         super.onDestroy();
     }
 
-
     @Override
     public void onInit(int status) {
         // Inicializar el TTS en Italiano por ser el mas parecido al esloveno
         if (status == TextToSpeech.SUCCESS) {
             mTts.setLanguage(Locale.ITALIAN);
-
-            //mTts.setLanguage(new Locale("sl","SLO"));
             //Esta forma rara es para ponerlo en Portugues
             //mTts.setLanguage(new Locale("pt", "PRT"));
             String cadena1 = getString(R.string.toast_tts_inicializado);

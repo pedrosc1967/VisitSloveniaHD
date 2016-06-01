@@ -6,7 +6,7 @@
 	<string name="toast_redir">Пренасочване към Google Play, за да инсталирате текст в реч на двигателя</string>
 	<string name="toast_set_language">Създаване TTS език към словенски</string>
 	<string name="hola">Zdravo -- Здравей</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- Приятно ми е</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Добро утро</string>

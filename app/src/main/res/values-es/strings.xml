@@ -6,7 +6,7 @@
 	<string name="toast_redir">Volver a dirigir a Google Play para instalar motor de texto a discurso</string>
 	<string name="toast_set_language">Establecer el idioma TTS al Esloveno</string>
 	<string name="hola">Zdravo -- Hola</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- Encantada de conocerte</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Buenos días</string>
@@ -29,7 +29,7 @@
 	<string name="di_me_puede_ayudar">Mi lahko pomagaš?</string>
 	<string name="cuanto_cuesta">Koliko je to? -- ¿Cuánto cuesta?</string>
 	<string name="di_cuanto_cuesta">Koliko je to?</string>
-	<string name="no_hablo_espanol">Ne govorim Sloveninan -- No hablo Sloveninan</string>
+	<string name="no_hablo_espanol">Ne govorim Sloveninan -- No hablo Esloveno</string>
 	<string name="di_no_hablo_espanol">Ne govorim Sloveninan</string>
 	<string name="necesito_un_medico">Rabim zdravnika -- Necesito un médico</string>
 	<string name="di_necesito_un_medico">rabim zdravnika</string>

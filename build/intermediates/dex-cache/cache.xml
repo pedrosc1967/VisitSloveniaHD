@@ -103,7 +103,7 @@
         jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="0d0977e32c96c78fb77d4063d32136348825c8af">
+        sha1="1ed58aceaabc9baedcc22da13daf201cb23bc09b">
         <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e58254d10d215e1eeec5e324658fe7b758cf7fc3/classes.dex" />
     </item>
     <item
@@ -131,7 +131,7 @@
         jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="21.1.2"
-        sha1="ec086050ea4667fc3c7ed4eed2e25be9b88e59e0">
+        sha1="6607aaf714d0613a834787503cd00cefc99c5ff5">
         <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_061a80b945166ae2c7d47228b24cf2ba8a1686f1/classes.dex" />
     </item>
 

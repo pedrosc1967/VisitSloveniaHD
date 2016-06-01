@@ -6,7 +6,7 @@
 	<string name="toast_redir">เปลี่ยนเส้นทางไปยัง Google Play ในการติดตั้งกับเครื่องยนต์ข้อความคำพูด</string>
 	<string name="toast_set_language">การตั้งค่าภาษา TTS จะสโลวีเนีย</string>
 	<string name="hola">Zdravo -- สวัสดี</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- ยินดีที่ได้พบคุณ</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- อรุณสวัสดิ์</string>

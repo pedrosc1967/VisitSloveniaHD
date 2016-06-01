@@ -6,7 +6,7 @@
 	<string name="toast_redir">Redirecting to Google Play to install Text to Speech engine</string>
 	<string name="toast_set_language">Setting TTS language to Slovenian</string>
 	<string name="hola">Zdravo -- Hello</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- NIce to meet you</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Good Morning</string>

@@ -6,7 +6,7 @@
 	<string name="toast_redir">Przekierowanie do Google Play, aby zainstalować Text to Speech silnika</string>
 	<string name="toast_set_language">Ustawianie języka TTS Słoweński</string>
 	<string name="hola">Zdravo -- cześć</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- Miło cię poznać</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Dzień dobry</string>
