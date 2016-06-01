@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- 你好吗？</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- 我感觉不错</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- 个饱</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- 你能帮助我吗？</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- 请来一杯啤酒</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- 哪里香水？</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- 你可以给我的菜单吗？</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- 一个煎蛋，请</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- 有些Golaž请</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- 你能把我的账单吗？</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- 早餐</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- 午餐</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- 晚餐</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- 勺</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- 叉子</string>

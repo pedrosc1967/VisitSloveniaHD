@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- як справи?</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- я почуваюся добре</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- Смачного</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- Можеш допомогти мені?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- Одне пиво, будь ласка</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- Де знаходиться туалет?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- Чи не могли б ви дати мені меню будь ласка?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- Один з омлету, будь ласка</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- Деякі ГолАЗ ласка</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- Чи не могли б ви принести мені рахунок, будь-ласка?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- сніданок</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- обід</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- вечеря</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- ложка</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- вилка</string>

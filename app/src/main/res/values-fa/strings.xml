@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- سلام</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- حس خوبی دارم</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- نوش جان</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- میشه به من کمک کنید؟</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- یک آبجو لطفا</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- تویلت کجا است؟</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- می توانید به من منو را، لطفا؟</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- یکی املت، لطفا</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- برخی Golaž مدیر</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- می توانید به من این لایحه را، لطفا؟</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- صبحانه</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- ناهار</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- شام</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- قاشق</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- چنگال</string>
