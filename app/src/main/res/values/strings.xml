@@ -173,6 +173,9 @@
     <string name="mensaje_cookies">Secondo la direttiva 2002/58 / CE del Parlamento europeo e del Consiglio viene informato che questo dispositivo sito identificativi vengono utilizzati per personalizzare i contenuti e gli annunci, al fine di fornire funzionalità di social media e per analizzare il traffico. Condividiamo anche questi identificatori e altre informazioni sul dispositivo con i nostri partner di social media, pubblicità e Web Analytics. Maggiori dettagli su http://la-gatera.hol.es</string>
     <string name="FacebookAudienceID" translatable="false">1759289410974589_1764618633775000</string>
     <string name="vocabulario" translatable="false">Vocabulario</string>
+    <string name="map_of_slovenia" translatable="false">Map of Slovenia</string>
+    <string name="slovenia" translatable="false">Slovenia</string>
+    <string name="map" translatable="false">Map</string>
 </resources>
 
 

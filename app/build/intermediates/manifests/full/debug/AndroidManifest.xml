@@ -42,8 +42,7 @@
         <activity
             android:name="com.revmob.ads.fullscreen.FullscreenActivity"
             android:configChanges="keyboardHidden|orientation"
-            android:theme="@android:style/Theme.Translucent" >
-        </activity>
+            android:theme="@android:style/Theme.Translucent" />
 
         <!-- Declare Facebook app ID -->
         <meta-data
@@ -113,8 +112,7 @@
         <activity
             android:name="com.apptracker.android.module.AppModuleActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:hardwareAccelerated="false" >
-        </activity>
+            android:hardwareAccelerated="false" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
@@ -125,6 +123,13 @@
             android:label="@string/vocabulario" >
             <intent-filter>
                 <action android:name="com.visit.slovenia.hd.Vocabulario" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.visit.slovenia.hd.MapActivity" >
+            <intent-filter>
+                <action android:name="com.visit.slovenia.hd.MapActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

@@ -144,8 +144,8 @@ public final class R {
 		public static final int create_calendar_message = 0x7f0800e7;
 		public static final int create_calendar_title = 0x7f0800e8;
 		public static final int decline = 0x7f0800e9;
-		public static final int store_picture_message = 0x7f0800ef;
-		public static final int store_picture_title = 0x7f0800f0;
+		public static final int store_picture_message = 0x7f0800f2;
+		public static final int store_picture_title = 0x7f0800f3;
 	}
 	public static final class style {
 		public static final int Theme_IAPTheme = 0x7f0c00c2;

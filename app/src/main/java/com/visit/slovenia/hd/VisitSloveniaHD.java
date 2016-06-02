@@ -204,9 +204,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         OnClickButtonListener();
-
-
-
+        OnClickButtonMapListener();
 
         // Instantiate an AdView view
         adView = new AdView(this, getString(FacebookAudienceID), AdSize.BANNER_HEIGHT_50);
@@ -385,9 +383,6 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         //Fin de la mierda de Google que no compila
 
 
-
-
-
 //Id de Flurry	
         FlurryAgent.onStartSession(this, getString(R.string.flurry));
 
@@ -410,6 +405,22 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                     public void onClick(View v) {
                         Intent intent = new Intent("com.visit.slovenia.hd.Vocabulario");
                         startActivity(intent);
+                    }
+                }
+        );
+
+    }
+
+
+    //Lo que hace el bot�n "Mapa"
+    public void OnClickButtonMapListener() {
+        Button buttonMap_open = (Button) findViewById(R.id.buttonMap);
+        buttonMap_open.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intentMap = new Intent("com.visit.slovenia.hd.MapActivity");
+                        startActivity(intentMap);
                     }
                 }
         );

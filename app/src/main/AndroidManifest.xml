@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.visit.slovenia.hd"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -33,46 +33,58 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name">
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version"/>
-
+            android:value="@integer/google_play_services_version" />
 
         <!-- Declare RevMob activity -->
-        <activity android:name="com.revmob.ads.fullscreen.FullscreenActivity"
-            android:theme="@android:style/Theme.Translucent"
-            android:configChanges="keyboardHidden|orientation">
-        </activity>
-
+        <activity
+            android:name="com.revmob.ads.fullscreen.FullscreenActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Translucent"></activity>
 
         <!-- Declare Facebook app ID -->
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
 
         <!-- RevMob Media ID -->
-        <meta-data android:name="com.revmob.app.id" android:value="@string/revmobstr"/>
-          <!--  android:value="55bf51d60f06624354cab257"-->
+        <meta-data
+            android:name="com.revmob.app.id"
+            android:value="@string/revmobstr" />
+        <!-- android:value="55bf51d60f06624354cab257" -->
 
-        <!-- Optionally, register AnalyticsReceiver and AnalyticsService to support background
-     dispatching on non-Google Play devices -->
-        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+
+        <!--
+     Optionally, register AnalyticsReceiver and AnalyticsService to support background
+     dispatching on non-Google Play devices
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
             android:enabled="true">
             <intent-filter>
                 <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
             </intent-filter>
         </receiver>
-        <service android:name="com.google.android.gms.analytics.AnalyticsService"
-            android:enabled="true"
-            android:exported="false"/>
 
-        <!-- Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
-             installation campaign reporting -->
-        <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
+
         <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
 
         <!-- Para Google Analytics -->
@@ -81,14 +93,13 @@
             android:name="com.google.android.gms.analytics.globalConfigResource"
             android:resource="@xml/global_tracker" />
 
-
-
         <!-- suppress AndroidDomInspection -->
         <activity
-            android:name="com.visit.slovenia.hd.VisitSloveniaHD"
-            android:label="@string/app_name" >
+            android:name=".VisitSloveniaHD"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -98,21 +109,17 @@
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
-
         <activity
             android:name="com.apptracker.android.module.AppModuleActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:hardwareAccelerated="false" >
-        </activity>
-
-
-        <activity android:name="com.facebook.FacebookActivity"
-            android:configChanges=
-                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:label="@string/app_name" />
-
-        <activity android:name=".Vocabulario"
+            android:hardwareAccelerated="false"></activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".Vocabulario"
             android:label="@string/vocabulario">
             <intent-filter>
                 <action android:name="com.visit.slovenia.hd.Vocabulario" />
@@ -120,9 +127,17 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".MapActivity">
+            <intent-filter>
+                <action android:name="com.visit.slovenia.hd.MapActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
 
-        <provider android:authorities="com.facebook.app.FacebookContentProvider1759289410974589"
+        </activity>
+
+        <provider
             android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1759289410974589"
             android:exported="true" />
 
         <!-- PRESAGE LIBRARY -->
@@ -135,7 +150,7 @@
         <activity
             android:name="io.presage.activities.PresageActivity"
             android:label="@string/app_name"
-            android:theme="@style/Presage.Theme.Transparent" >
+            android:theme="@style/Presage.Theme.Transparent">
             <intent-filter>
                 <action android:name="io.presage.intent.action.LAUNCH_WEBVIEW" />
 
@@ -143,13 +158,15 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="io.presage.receivers.BootReceiver" >
+        <receiver android:name="io.presage.receivers.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.DATE_CHANGED" />
                 <action android:name="io.presage.receivers.BootReceiver.RESTART_SERVICE" />
             </intent-filter>
         </receiver>
+
+
     </application>
 
 </manifest>
