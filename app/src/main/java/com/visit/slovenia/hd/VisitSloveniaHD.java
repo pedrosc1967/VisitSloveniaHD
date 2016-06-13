@@ -46,9 +46,6 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import io.presage.Presage;
-import io.presage.utils.IADHandler;
-
 import static android.content.Intent.ACTION_VIEW;
 import static com.visit.slovenia.hd.R.string.FacebookAudienceID;
 
@@ -160,6 +157,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
     protected void onResume() {
         super.onResume();
 
+        /*
         // Para revmob
         revmob = RevMob.startWithListener(this, revmobListener);
 
@@ -193,6 +191,8 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
                 Log.i("PRESAGE", "ad closed");
             }
         });
+
+        */
     }
 //Definicion de la interfaz de usuario
 
@@ -245,8 +245,8 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         mAdView.loadAd(adRequest);
         */
 
-        Presage.getInstance().setContext(this.getBaseContext());
-        Presage.getInstance().start();
+        //Presage.getInstance().setContext(this.getBaseContext());
+        //Presage.getInstance().start();
 
         revmob = RevMob.startWithListener(this, revmobListener);
 

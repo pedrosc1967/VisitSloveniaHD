@@ -48,11 +48,11 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import io.presage.Presage;
-import io.presage.utils.IADHandler;
+//import io.presage.utils.IADHandler;
 
 import static android.content.Intent.ACTION_VIEW;
 import static com.visit.slovenia.hd.R.string.FacebookAudienceID;
+//import static io.presage.Presage.getInstance;
 
 public class Vocabulario extends Activity implements OnInitListener {
 
@@ -161,10 +161,12 @@ public class Vocabulario extends Activity implements OnInitListener {
     protected void onResume() {
         super.onResume();
 
+
+        /*
         // Para revmob
         revmob = RevMob.startWithListener(this, revmobListener);
 
-        Presage.getInstance().adToServe("interstitial", new IADHandler() {
+        getInstance().adToServe("interstitial", new IADHandler() {
 
             @Override
             public void onAdNotFound() {
@@ -193,7 +195,20 @@ public class Vocabulario extends Activity implements OnInitListener {
             public void onAdClosed() {
                 Log.i("PRESAGE", "ad closed");
             }
+
+            @Override
+            public void onAdError(int i) {
+
+            }
+
+            @Override
+            public void onAdDisplayed() {
+
+            }
         });
+
+
+        */
     }
 //Definicion de la interfaz de usuario
 
@@ -246,10 +261,10 @@ public class Vocabulario extends Activity implements OnInitListener {
         mAdView.loadAd(adRequest);
         */
 
-        Presage.getInstance().setContext(this.getBaseContext());
-        Presage.getInstance().start();
+      //  getInstance().setContext(this.getBaseContext());
+      //  getInstance().start();
 
-        revmob = RevMob.startWithListener(this, revmobListener);
+       // revmob = RevMob.startWithListener(this, revmobListener);
 
         if (savedInstanceState == null) {
             // Initialize Leadbolt SDK with your api key
