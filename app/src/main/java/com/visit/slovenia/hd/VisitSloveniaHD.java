@@ -54,6 +54,7 @@ import static com.visit.slovenia.hd.R.string.FacebookAudienceID;
 
 public class VisitSloveniaHD extends Activity implements OnInitListener {
 
+
     private int MY_DATA_CHECK_CODE = 0;
     private TextToSpeech mTts;
     private ShareActionProvider mShareActionProvider;
@@ -205,6 +206,8 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         setContentView(R.layout.main);
         OnClickButtonListener();
         OnClickButtonMapListener();
+     //   OnClickButtonMapSloveniaListener();
+
 
         // Instantiate an AdView view
         adView = new AdView(this, getString(FacebookAudienceID), AdSize.BANNER_HEIGHT_50);
@@ -383,7 +386,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         //Fin de la mierda de Google que no compila
 
 
-//Id de Flurry	
+//Id de Flurry
         FlurryAgent.onStartSession(this, getString(R.string.flurry));
 
 
@@ -426,6 +429,23 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         );
 
     }
+/*
+    //Lo que hace el bot�n "Mapa de Eslovenia"
+    public void OnClickButtonMapSloveniaListener() {
+        Button buttonMap_open_sl = (Button) findViewById(R.id.map);
+        buttonMap_open_sl.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intentMap = new Intent("com.visit.slovenia.hd.SloveniaMapsActivity");
+                        startActivity(intentMap);
+                    }
+                }
+        );
+
+    }
+
+    */
 
     @Override
     public void onStart() {

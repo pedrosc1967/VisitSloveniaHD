@@ -159,4 +159,6 @@
 	<string name="version">Version</string>
 	<string name="extra_text1">Denne applikation er meget nyttigt!  NPrøv det! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">I henhold til direktiv 2002/58 / EF af Europa-Parlamentet og Rådet er det oplyst, at dette websted indretningsidentifikatorer anvendes til at tilpasse indhold og annoncer, for at give de sociale medier funktioner og analysere trafik. Vi deler også disse identifikatorer og andre oplysninger på din enhed med vores sociale mediepartnere, reklame og web analytics. Flere detaljer om http://la-gatera.hol.es</string>
+	<string name="map">Kort</string>
+	<string name="map_of_slovenia">Kort over Slovenien</string>
 </resources>

@@ -8,7 +8,10 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/adViewContainer">
+        android:layout_above="@+id/adViewContainer"
+        android:divider="?android:listDivider"
+        android:dividerPadding="2.5dp"
+        android:showDividers="middle">
 
         <RelativeLayout
             android:id="@+id/adViewContainer"
@@ -24,9 +27,24 @@
             android:background="#03ffd5"
             android:fontFamily="sans-serif-thin"
             android:textColor="#000000"
+            android:divider="@android:color/black"
             android:textSize="@dimen/abc_text_size_medium_material"
             android:textAllCaps="false"
             android:nestedScrollingEnabled="true"
             android:elegantTextHeight="false" />
+
+        <Button
+            android:id="@+id/buttonMap"
+            android:text="@string/map"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#03ffd5"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="#000000"
+            android:divider="@android:color/black"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:textAllCaps="false"
+            android:nestedScrollingEnabled="true" />
     </LinearLayout>
 </LinearLayout>

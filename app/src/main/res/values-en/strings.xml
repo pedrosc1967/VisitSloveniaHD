@@ -159,4 +159,6 @@
 	<string name="version">Version</string>
 	<string name="extra_text1">This application is very useful! \nTry it! \n https://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">According to Directive 2002/58 / EC of the European Parliament and the Council it is informed that this in app  identifiers are used to personalize content and ads, in order to provide social media features and to analyze traffic . We also share these identifiers and other information on your device with our social media partners, advertising and web analytics. More details on http://la-gatera.hol.es</string>
+	<string name="map">Map</string>
+	<string name="map_of_slovenia">Map of Slovenia</string>
 </resources>

@@ -159,4 +159,6 @@
 	<string name="version">版</string>
 	<string name="extra_text1">此应用程序是非常有用的！  n尝试吧！ \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">根据指令2002/58欧洲议会和理事会/ EC就被告知，本站设备标识符用于个性化内容和广告，以提供社交媒体功能和分析流量。我们也分享这些标识，并与我们的社会媒体合作伙伴，广告和网络分析设备上的其他信息。在http://la-gatera.hol.es更多细节</string>
+	<string name="map">地图</string>
+	<string name="map_of_slovenia">地图斯洛文尼亚</string>
 </resources>

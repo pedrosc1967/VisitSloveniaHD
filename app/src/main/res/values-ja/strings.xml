@@ -159,4 +159,6 @@
 	<string name="version">バージョン</string>
 	<string name="extra_text1">このアプリケーションは非常に便利です！  nTry it！  nはhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">欧州議会と理事会の指令58分の2002 / ECによると、このサイトのデバイス識別子は、ソーシャルメディア機能を提供し、トラフィックを分析するために、コンテンツや広告をカスタマイズするために使用されていることを知らされます。また、これらの識別子と私たちのソーシャルメディアパートナー、広告、ウェブ解析を使用して、デバイス上の他の情報を共有しています。 http://la-gatera.hol.esについての詳細</string>
+	<string name="map">地図</string>
+	<string name="map_of_slovenia">スロベニアの地図</string>
 </resources>

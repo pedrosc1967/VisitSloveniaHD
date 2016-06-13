@@ -159,4 +159,6 @@
 	<string name="version">الإصدار</string>
 	<string name="extra_text1">هذا التطبيق مفيد جدا! \\nحاول ذلك!  ن https://play.google.com/store/apps/details؟id=</string>
 	<string name="mensaje_cookies">طبقا للتوجيه 2002/58 / EC الصادر عن البرلمان الأوروبي ومجلس وعلم أن هذه معرفات الأجهزة الموقع تستخدم لتخصيص المحتوى والإعلانات، وذلك لتوفير ميزات وسائل الاعلام الاجتماعية، وتحليل حركة المرور. ونحن نشارك أيضا هذه المعرفات وغيرها من المعلومات على جهازك مع شركائنا في وسائل الإعلام الاجتماعية، والإعلان وتحليلات الويب. مزيد من التفاصيل حول http://la-gatera.hol.es</string>
+	<string name="map">رسم خريطة</string>
+	<string name="map_of_slovenia">خريطة سلوفينيا</string>
 </resources>

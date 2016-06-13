@@ -159,4 +159,6 @@
 	<string name="version">Versão</string>
 	<string name="extra_text1">Esta aplicação é muito útil!  NTente-lo! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">De acordo com a Directiva 2002/58 / CE do Parlamento Europeu e do Conselho é informado que este identificadores de dispositivo local são usadas para personalizar conteúdos e anúncios, a fim de fornecer recursos de mídia social e para analisar o tráfego. Nós também compartilhar esses identificadores e outras informações em seu dispositivo com os nossos parceiros de mídia social, publicidade e web analytics. Mais detalhes sobre http://la-gatera.hol.es</string>
+	<string name="map">Mapa</string>
+	<string name="map_of_slovenia">Mapa da Eslovénia</string>
 </resources>
