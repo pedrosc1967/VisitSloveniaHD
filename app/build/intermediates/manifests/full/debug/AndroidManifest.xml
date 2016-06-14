@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.visit.slovenia.hd"
-    android:versionCode="4"
-    android:versionName="1.0.3" >
+    android:versionCode="5"
+    android:versionName="1.0.4" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -153,17 +153,19 @@
             android:authorities="com.facebook.app.FacebookContentProvider1759289410974589"
             android:exported="true" />
 
-        <!-- PRESAGE LIBRARY -->
+        <!--
+        PRESAGE LIBRARY
         <meta-data
             android:name="presage_key"
             android:value="@string/OguryStr" />
 
         <service android:name="io.presage.services.PresageServiceImp" />
-
+        -->
+        <!--
         <activity
             android:name="io.presage.activities.PresageActivity"
             android:label="@string/app_name"
-            android:theme="@style/Presage.Theme.Transparent" >
+            android:theme="@style/Presage.Theme.Transparent">
             <intent-filter>
                 <action android:name="io.presage.intent.action.LAUNCH_WEBVIEW" />
 
@@ -171,14 +173,16 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="io.presage.receivers.BootReceiver" >
+
+
+        <receiver android:name="io.presage.receivers.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.DATE_CHANGED" />
                 <action android:name="io.presage.receivers.BootReceiver.RESTART_SERVICE" />
             </intent-filter>
         </receiver>
-
+        -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyA_O2TpaRbzqWdiBfhX7b-ykBJ0bQCF4rg" />
