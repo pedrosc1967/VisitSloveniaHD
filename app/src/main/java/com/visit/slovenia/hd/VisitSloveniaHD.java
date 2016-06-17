@@ -346,39 +346,40 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         // Añadir los códigos de la UE
         // AT BE BG CY CZ DK EE FI FR DE GR HR HU IE IT
         // LV LT LU MT NL PL PT RO SK SI ES SE GB
-        listaUE.add("at");
-        listaUE.add("be");
-        listaUE.add("bg");
-        listaUE.add("cy");
-        listaUE.add("cz");
-        listaUE.add("dk");
-        listaUE.add("ee");
-        listaUE.add("fi");
-        listaUE.add("fr");
-        listaUE.add("de");
-
-        listaUE.add("gr");
-        listaUE.add("hr");
-        listaUE.add("hu");
-        listaUE.add("ie");
-        listaUE.add("it");
-        listaUE.add("lv");
-        listaUE.add("lt");
-        listaUE.add("lu");
-        listaUE.add("mt");
-        listaUE.add("nl");
-        listaUE.add("pl");
-
-        listaUE.add("pt");
-        listaUE.add("ro");
-        listaUE.add("sk");
-        listaUE.add("si");
+        listaUE.add("de_AT");
+        listaUE.add("nl_BE");
+        listaUE.add("fr_BE");
+        listaUE.add("bg_BG");
+        listaUE.add("el_CY");
+        listaUE.add("tr_CY");
+        listaUE.add("cs_CZ");
+        listaUE.add("da_DK");
+        listaUE.add("fi_FI");
+        listaUE.add("fr_FR");
+        listaUE.add("de_DE");
+        listaUE.add("el_GR");
+        listaUE.add("hr_HR");
+        listaUE.add("hu_HU");
+        listaUE.add("en_IE");
+        listaUE.add("ga_IE");
+        listaUE.add("it_IT");
+        listaUE.add("lv_LV");
+        listaUE.add("lt_LT");
+        listaUE.add("de_LU");
+        listaUE.add("fr_LU");
+        listaUE.add("mt_MT");
+        listaUE.add("en_MT");
+        listaUE.add("nl_NL");
+        listaUE.add("pl_PL");
+        listaUE.add("pt_PT");
+        listaUE.add("ro_RO");
+        listaUE.add("sk_SK");
         listaUE.add("es_ES");
-        listaUE.add("se");
-        listaUE.add("en");
+        listaUE.add("sv_SE");
+        listaUE.add("en_GB");
+        listaUE.add("sl_SI");
 
         pertenece = listaUE.contains(locale);
-
 
         final SharedPreferences settings =
                 getSharedPreferences("localPreferences", MODE_PRIVATE);
