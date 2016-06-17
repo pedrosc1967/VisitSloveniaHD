@@ -736,12 +736,11 @@ int drawable mr_ic_play_dark 0x7f0200be
 int drawable mr_ic_play_light 0x7f0200bf
 int drawable mr_ic_settings_dark 0x7f0200c0
 int drawable mr_ic_settings_light 0x7f0200c1
-int drawable notification_template_icon_bg 0x7f0200c7
+int drawable notification_template_icon_bg 0x7f0200c6
 int drawable places_ic_clear 0x7f0200c2
 int drawable places_ic_search 0x7f0200c3
 int drawable powered_by_google_dark 0x7f0200c4
 int drawable powered_by_google_light 0x7f0200c5
-int drawable slovenia 0x7f0200c6
 int id Acerca 0x7f0e0117
 int id Otras_apps 0x7f0e0116
 int id Rate 0x7f0e0118

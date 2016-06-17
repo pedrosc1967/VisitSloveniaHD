@@ -49,6 +49,8 @@ import java.util.Locale;
 import static android.content.Intent.ACTION_VIEW;
 import static com.visit.slovenia.hd.R.string.FacebookAudienceID;
 
+// Leadbolt SDK imports
+
 public class VisitSloveniaHD extends Activity implements OnInitListener {
 
 
@@ -208,13 +210,36 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         OnClickButtonMapListener();
      //   OnClickButtonMapSloveniaListener();
 
+        // For Leadbolt
+        if(savedInstanceState == null) {
+            // Initialize Leadbolt SDK with your api key
+            AppTracker.startSession(getApplicationContext(),getString(R.string.LeadboltStr),AppTracker.ENABLE_AUTO_CACHE);
+        }
 
-        // Instantiate an AdView view
-        adView = new AdView(this, getString(FacebookAudienceID), AdSize.BANNER_HEIGHT_50);
+        AppTracker.setAgeRange("26-35");
+        // Allowed values for Age range are: "13-17", "18-25", "26-35", "36-45", "46+"
+
+        AppTracker.setGender("Male");
+        // Allowed values for Gender are: "Male", "Female"
+
+        // cache Leadbolt Ad without showing it
+        AppTracker.loadModuleToCache(getApplicationContext(),"inapp");
+
+        // Show the ad from Leadbol
+        AppTracker.loadModule(getApplicationContext(),"inapp");
+
 
         // Find the Vocabulario layout of your activity
 
         //RelativeLayout adViewContainer = (RelativeLayout) findViewById(R.id.adViewContainer);
+
+        //For testing adds
+        //AdSettings.addTestDevice("faf8bb639cf4c1faa51b7ca5b718d7fb");
+
+
+        // Instantiate an AdView view
+        adView = new AdView(this, getString(FacebookAudienceID), AdSize.BANNER_HEIGHT_50);
+
         RelativeLayout layout = (RelativeLayout)findViewById(R.id.adViewContainer);
         layout.addView(adView);
        // adViewContainer.addView(adView);
@@ -250,6 +275,8 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
         revmob = RevMob.startWithListener(this, revmobListener);
 
+
+        /*
         if (savedInstanceState == null) {
             // Initialize Leadbolt SDK with your api key
             AppTracker.startSession(getApplicationContext(), getString(R.string.LeadboltStr));
@@ -267,7 +294,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         }
 
         //showRevmobAd();
-
+*/
         analytics = GoogleAnalytics.getInstance(this);
         analytics.setLocalDispatchPeriod(1800);
 
@@ -346,7 +373,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         listaUE.add("ro");
         listaUE.add("sk");
         listaUE.add("si");
-        listaUE.add("es");
+        listaUE.add("es_ES");
         listaUE.add("se");
         listaUE.add("en");
 
@@ -355,7 +382,9 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
         final SharedPreferences settings =
                 getSharedPreferences("localPreferences", MODE_PRIVATE);
-        if ((settings.getBoolean("isFirstRun", true)) && pertenece)
+        //if ((settings.getBoolean("isFirstRun", true)) && pertenece)
+            if (pertenece)
+
         // Mostar el diálogo y cambiar isFirstRun
         {
             // Mostar el diálogo y cambiar isFirstRun luego

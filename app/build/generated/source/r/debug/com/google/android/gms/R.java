@@ -653,7 +653,7 @@ public final class R {
 		public static final int mr_ic_pause_light = 0x7f0200bd;
 		public static final int mr_ic_play_dark = 0x7f0200be;
 		public static final int mr_ic_play_light = 0x7f0200bf;
-		public static final int notification_template_icon_bg = 0x7f0200c7;
+		public static final int notification_template_icon_bg = 0x7f0200c6;
 		public static final int places_ic_clear = 0x7f0200c2;
 		public static final int places_ic_search = 0x7f0200c3;
 		public static final int powered_by_google_dark = 0x7f0200c4;
