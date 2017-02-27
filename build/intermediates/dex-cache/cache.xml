@@ -2,137 +2,410 @@
 <items version="2" >
 
     <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/AppTracker.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="cc5636727a279d6c32745d779de69f0c42f753e6">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/AppTracker_6305281cfb6a76b76347b706905c8fed42ad47b0.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.1_3b9a5eeaba5262bdce61f17ccea2233e957daf4a.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_60379303071f088d5678d3a5bccdeb3613570182.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_4f1e43701a2087053cf79c10041c686a922722ba.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.facebook.android/audience-network-sdk/4.8.2/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="6ee73d6c7089686998da834f27152c11cfbff2ad">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.facebook.android-audience-network-sdk-4.8.2_8c7e9454f72938c0966f9bfa2375e5931de73204.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/presage-lib-1.6.0.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="530dc4ed5821c0cdb6af0ca173f6918f5bb20346">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/presage-lib-1.6.0_55e01d2c020db88b7816b2b950663ddf1a9c8b7c.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/Documents/Desarrollo/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_d97441f3eedd2cac89e3b6ec791587312a951312.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/FlurryAnalytics_3.3.2.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="5fb31df526a21837fb7b59f224fccbc5fbbf6273">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/FlurryAnalytics_3.3.2_9525a93c90f43b5f3550407f515e10b649f36c3c.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="7679607a53988c76b23575d3e2bd473951773f29">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.8.2_886cc0b7438947a4388b6c3b51f46fa3210797d1.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="2c3b6041bb3579b6637b76e4942e9746c57aec2f">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_e58254d10d215e1eeec5e324658fe7b758cf7fc3.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_b15ba1b31e07615a12e9cbb59fd4903b9bd8201c.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.4.0_5b8a0734a5002b0f48b3bc24870974f284a2a547.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-21.0.0_2e6296439cddddab1d4af51c41817c84fa777ca3.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_b66692ecd57f897fe5c62fa2d3093da8bcfb6a7d.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="true"
-        revision="21.1.2"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_a248d283b6651ba7dfe6d53af9a8f0f55dfcbabc.jar" />
-    </item>
-    <item
         jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/revmob.jar"
         jumboMode="true"
-        revision="21.1.2"
+        revision="22.0.1"
         sha1="eef1af34ff8ccb74ca48485b26f349706111d276">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/revmob_46d9c4c983cfc1658db9212e2933f92df206ebb3.jar" />
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/2/revmob_46d9c4c983cfc1658db9212e2933f92df206ebb3/classes.dex" />
     </item>
     <item
         jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
-        revision="21.1.2"
-        sha1="d75f5501b3794bf1251eb99a11412a7cdc6c0322">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/instant-run_061a80b945166ae2c7d47228b24cf2ba8a1686f1.jar" />
+        revision="22.0.1"
+        sha1="a3cd7136b146e38f7f0cae26617c898c79ce3985">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_061a80b945166ae2c7d47228b24cf2ba8a1686f1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="6ff48ef26bc539c78af4aa061cb9bad6abcbf5e8">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.0.2_0186504ba7ca7aa9929bde3fedbd211b3a3dbf98/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="b8e0372ca6dc89ac4fe22b76eeea4f68ece435b8">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.0.2_c4fedbd4185d249103298fd767bcbf2a89c93dc4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.0_a2d9863d5644841685ef065c62a614dcc1ff7401/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.2_a1daf57ad804341629f5cbcc580506f0f004f33f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.0.2_79232a8063225fc8416f10f75c3e3b5a1867a23c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.8.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="7679607a53988c76b23575d3e2bd473951773f29">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.8.2_886cc0b7438947a4388b6c3b51f46fa3210797d1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="604ecf403feb0084dc6d0c12f1677a490cf45e4c">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.0.2_ecb3fefc2fd9166ee6bfab37881c5d536f0fffef/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="922c24fbfc4247947fcfaf2b95f295a16a8c3d17">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.0.2_21a693c3d5b3f715a5618cdbb970e0ab53022665/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f61f8c9282df1c05b8cedaf01ca7c09b347b830b">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e58254d10d215e1eeec5e324658fe7b758cf7fc3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="829c6e46cb221c2102801221c648b77113743e81">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.0.2_ea55ad11094d686e10a500d87c0ea20fff4dc271/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="bc156efaaee99f1ef6bf471347373a4cbb28e2a1">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.0.2_733cd586615bbfcfbcaa7e4f9a720d4d42130667/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.0.2_bf37a2bb80b8df781ccbacae5f180d74a57561d0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f399a2fde7888450cadcaec4974bfd169d8cce43">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.0.2_65e990b9e3ba58892f6766d5e86fcd145ed229b4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="060a7157438a0b1b0706b99c430fb3ecbc5a79a4">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.0.2_b6b4426804f37279f24f05260191b4bd38a63d1a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a45bc1ed812137b21dddd1cedaa3712b308f0b3f">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.0.2_643fc9c07e5e51c7a9c52276b3945a5d22c9a8af/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.2_816cc78c1ae9a853ea3b5b866d6f7646ee5d4956/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.2_e0a254f391168193a5d5e386ebccf8a8a70673c3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.0.2_95531950a375ab65eda9e787f705a0637d88bdd6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.2_c8a81c5a60bc937988863d252de1a3b979553a33/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="d9ea4cdaafa29ec4651d6e4715788d3fcaa7b913">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.0.2_529ea3c1b795a0c13d1a01c0b9b505f973da2bbf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.0.2_9df1fe8cb2afdf3f1ff407d5f1c6f7a4af08b7eb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="143813b18381b28de1e04aae1d92fcb374a0add9">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.0.2_30f71c36286feb1d2cfd8f1b06c0059b0b42e7de/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="53f10fcd322a3931495d6ca2078a81f4957cdbce">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.0.2_f777389f624fb704c6cedfa460f1571b4523a88f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.0.2_2a02ddc1a8277aa56e2df98ac92250dde5a8a51d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.2_4617e9f96ed946ad493b9f5a1fa53fe2178f0e93/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a498fab72f8663c26fbf3d4496eb6b673b17bcae">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.0.2_9438f696fa05d3225920e09e1e40b820f45e3b94/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="e11da70cff6a544a45cdc21f419802d9bb9043ac">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.0.2_a7b86944b2876bb49a03ad4278245b0e537d5133/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/AppTracker.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="90b5587ec80bbc1d1aca3603e076f478de5fe12d">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/2/AppTracker_6305281cfb6a76b76347b706905c8fed42ad47b0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="cd4c7c54e15d9ccbc448384fa2c4684d69ca73f0">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.0.2_78eaa8a74d71b70a028cce204890fc63ecdb24b9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="20e1a0f0de6276a5f36062b655f8b20f8cc00cc4">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.0.2_b8ab733621edcb4dbae4af2bdf44319c95bced40/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.0.2_b6927d59759f0a34519854777db9564af5581f29/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.0.2_ce9ba3563e7fac7f2f9db0f8f5cd8cd07da3e338/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="2ab5be19bbd34bae74662ea6b2d4451314d92d97">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.0.2_5e89f3116096266e5bd5ebf9691cfd10fa809462/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="0c835e9f3875cf245877c9b17d1c69bc98f16057">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.0.2_3ea14241500aa513f397980e38a2c2c058995526/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="8c0fc9b1ea0bac0cb31d60c8b1bf2feb0518e3a9">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.0.2_2e38ca34292fed5dc5daf88b2573323fbe86a417/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c96952c162c9f6076f44c5939982cb35491442ea">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.0.2_5272b07233857b9f8e75068dd1b83f7d7d593c45/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.2_aebbc21181b9d94b5e378f1de18821c9d2bde62e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="7e52b440a26498c56b4f263e215223b5451c955e">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.0.2_794b8fa62e8c7a3d4ad470a03721ca3f5ea66268/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="92a1d5f71b0fc8938f1d3f2e6ef984b52b894b4d">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.0.2_9d083de5fad31f7a43149bc28eb61494cb9cffc0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.2_6e9809de32b494cf702c3d2b163c55c40e6a69d0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_3b9a5eeaba5262bdce61f17ccea2233e957daf4a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f4fb6981392ca7680d02fd57d26d6124c141d9d9">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.0.2_ab95784f4db2c92d2d1664952ac44b28c9574601/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_965a81132f699f9d56d75e53bf0d1d4f80a2dd3f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="6c58c14d15602fea2c50138c73bb107e8b832b62">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.0.2_c2cbcf5e49e859e5129e74223bf4637294fdf358/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_4f1e43701a2087053cf79c10041c686a922722ba/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="b6af089f583d547bcffc0689b2e80bc7aaa54b15">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.0.2_36c7b4a85e6671521e6cbb5f7e028f281e8b2720/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/libs/FlurryAnalytics_3.3.2.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="5fb31df526a21837fb7b59f224fccbc5fbbf6273">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/2/FlurryAnalytics_3.3.2_9525a93c90f43b5f3550407f515e10b649f36c3c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="fe5b47e764869f1076cb9cfe12801ed2ef4e9117">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.0.2_6aa1128a340a0f07b51175540504349e006361ca/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="d900f2a1ff098cac8befe6c023d723e9afb154be">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.0.2_ab3ebe3c54ce9a2fdb2498339717f4cefbb0f677/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.facebook.android/audience-network-sdk/4.8.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="6ee73d6c7089686998da834f27152c11cfbff2ad">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-audience-network-sdk-4.8.2_8c7e9454f72938c0966f9bfa2375e5931de73204/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/Documents/Desarrollo/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_d97441f3eedd2cac89e3b6ec791587312a951312/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.0.2_272ad88df5c1af765f49736f7260bcabf9b57b99/classes.dex" />
     </item>
     <item
         jar="/Users/pedrosantangelocalvo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.1/44780c2cf98f6a3cf4e77f1234d644758b329201/bolts-android-1.2.1.jar"
         jumboMode="true"
-        revision="21.1.2"
+        revision="22.0.1"
         sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.1_b424c6454cc35d1f033eca33ecabb8953ff451ae.jar" />
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.2.1_b424c6454cc35d1f033eca33ecabb8953ff451ae/classes.dex" />
     </item>
     <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="true"
-        revision="21.1.2"
-        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.4.0_ee7fbd981e1e9ddd92ef893d0cb5e9e473ebddec.jar" />
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_a248d283b6651ba7dfe6d53af9a8f0f55dfcbabc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="764d32faf85bc6f7bd2cdcb3a70a482c1884fdd2">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.0.2_0010dc8e4ffe6bb6a2ee822274c8226021aa945a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/VisitSlovenia/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_81cdeec71bcc82b08fd1ef31e6a2fed30ae194d6/classes.dex" />
     </item>
 
 </items>

@@ -6,7 +6,7 @@
 	<string name="toast_redir">Redirecionando para o Google Play para instalar Text to Speech motor</string>
 	<string name="toast_set_language">Definir idioma TTS para Esloveno</string>
 	<string name="hola">Zdravo -- Olá</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- Prazer em conhecê-lo</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Bom Dia</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- Como você está?</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- Eu estou me sentindo bem</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- Bom apetite</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- Pode me ajudar?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- Uma cerveja por favor</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- Onde está a toilette?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- Poderia dar-me o menu, por favor?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- Uma omelete, por favor</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- Alguns Golaz por favor</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- Você Poderia me trazer a conta, por favor?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- Café da manhã</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- Almoço</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- Jantar</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- Colher</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- Garfo</string>
@@ -159,4 +159,6 @@
 	<string name="version">Versão</string>
 	<string name="extra_text1">Esta aplicação é muito útil!  NTente-lo! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">De acordo com a Directiva 2002/58 / CE do Parlamento Europeu e do Conselho é informado que este identificadores de dispositivo local são usadas para personalizar conteúdos e anúncios, a fim de fornecer recursos de mídia social e para analisar o tráfego. Nós também compartilhar esses identificadores e outras informações em seu dispositivo com os nossos parceiros de mídia social, publicidade e web analytics. Mais detalhes sobre http://la-gatera.hol.es</string>
+	<string name="map">Mapa</string>
+	<string name="map_of_slovenia">Mapa da Eslovénia</string>
 </resources>

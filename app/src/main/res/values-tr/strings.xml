@@ -6,7 +6,7 @@
 	<string name="toast_redir">Google\'a yönlendiriliyor Konuşma motoru Metin yüklemek için Çal</string>
 	<string name="toast_set_language">Slovence TTS dilini ayarlama</string>
 	<string name="hola">Zdravo -- Merhaba</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- Tanıştığıma memnun oldum</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Günaydın</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- nasılsın?</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- ben iyi hissediyorum</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- Afiyet olsun</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- Bana yardımcı olabilir misiniz?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- Bir bira lütfen</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- toilette nerede?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- Eğer, bana menü verir misin lütfen?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- Bir omlet, lütfen</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- Bazı Golaz lütfen</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- Eğer, faturayı bana lütfen getirebilir?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- Kahvaltı</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- Öğle yemeği</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- Akşam yemeği</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- Kaşık</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- Çatal</string>
@@ -159,4 +159,6 @@
 	<string name="version">versiyon</string>
 	<string name="extra_text1">Bu uygulama çok yararlı!  Ntry o! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">Direktif 2002/58 AvrGora Parlamentosu ve Konseyi\'nin / EC sayılı göre, bu site cihaz tanımlayıcıları sosyal medya özellikleri sunmak amacıyla, içeriği ve reklamları kişiselleştirmek için kullanılır ve trafiğini analiz etmek olduğu bildirilir. Biz de bu tanımlayıcıları ve sosyal medya ortakları, reklam ve web analitiği ile cihazınızdaki diğer bilgi paylaşımı. http://la-gatera.hol.es Daha fazla detay</string>
+	<string name="map">Harita</string>
+	<string name="map_of_slovenia">Slovenya Haritası</string>
 </resources>

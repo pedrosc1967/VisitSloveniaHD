@@ -6,7 +6,7 @@
 	<string name="toast_redir">गूगल के लिए पुनः निर्देशित भाषण इंजन के लिए पाठ स्थापित करने के लिए खेलने के लिए</string>
 	<string name="toast_set_language">स्लोवेनियाई में टीटीएस भाषा की स्थापना</string>
 	<string name="hola">Zdravo -- नमस्ते</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- आपसे मिलकर अच्छा लगा</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- शुभ प्रभात</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- होला</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- मैं अच्छा महसूस कर रहा हूँ</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- बॉन एपेतीत</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- क्या आप मेरी मदद कर सकते हैं?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- कृपया एक बियर दीजिए</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- कपड़े कहां है?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- तुम मुझे मेनू दे सकता है, कृपया?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- एक आमलेट, कृपया</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- कुछ Golaž कृपया</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- तुम मुझे बिल ला सकता है, कृपया?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- सुबह का नाश्ता</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- दोपहर का भोजन</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- रात का खाना</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- चम्मच</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- कांटा</string>
@@ -159,4 +159,6 @@
 	<string name="version">संस्करण</string>
 	<string name="extra_text1">यह आवेदन बहुत उपयोगी है!  NTRY यह! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">निर्देशक 2002/58 यूरोपीय संसद और परिषद के / चुनाव आयोग के अनुसार यह सूचित किया जाता है कि इस साइट उपकरण पहचानकर्ता सामग्री और विज्ञापनों के निजीकरण, आदेश सामाजिक मीडिया सुविधाओं प्रदान करने के लिए यातायात का विश्लेषण करने के लिए इस्तेमाल कर रहे हैं। हम भी इन पहचानकर्ता और अपने डिवाइस पर अन्य जानकारी हमारे सामाजिक मीडिया भागीदारों, विज्ञापन और वेब विश्लेषिकी के साथ साझा करें। http://la-gatera.hol.es पर अधिक जानकारी</string>
+	<string name="map">नक्शा</string>
+	<string name="map_of_slovenia">स्लोवेनिया के मानचित्र</string>
 </resources>

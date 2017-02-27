@@ -6,7 +6,7 @@
 	<string name="toast_redir">重定向到谷歌播放安装文本到语音引擎</string>
 	<string name="toast_set_language">设置TTS语言斯洛文尼亚语</string>
 	<string name="hola">Zdravo -- 你好</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- 很高兴见到你</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- 早上好</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- 你好吗？</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- 我感觉不错</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- 个饱</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- 你能帮助我吗？</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- 请来一杯啤酒</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- 哪里香水？</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- 你可以给我的菜单吗？</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- 一个煎蛋，请</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- 有些Golaž请</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- 你能把我的账单吗？</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- 早餐</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- 午餐</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- 晚餐</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- 勺</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- 叉子</string>
@@ -159,4 +159,6 @@
 	<string name="version">版</string>
 	<string name="extra_text1">此应用程序是非常有用的！  n尝试吧！ \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">根据指令2002/58欧洲议会和理事会/ EC就被告知，本站设备标识符用于个性化内容和广告，以提供社交媒体功能和分析流量。我们也分享这些标识，并与我们的社会媒体合作伙伴，广告和网络分析设备上的其他信息。在http://la-gatera.hol.es更多细节</string>
+	<string name="map">地图</string>
+	<string name="map_of_slovenia">地图斯洛文尼亚</string>
 </resources>

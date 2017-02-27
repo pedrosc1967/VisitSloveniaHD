@@ -6,7 +6,7 @@
 	<string name="toast_redir">Google에 리디렉션 음성 엔진에 텍스트를 설치 플레이</string>
 	<string name="toast_set_language">슬로베니아어에 TTS 언어 설정</string>
 	<string name="hola">Zdravo -- 안녕하세요</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- 만나서 반갑습니다</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- 좋은 아침</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- 안녕</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- 기분이 좋아</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- 도요 위하여</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- 당신이 나를 도와 드릴까요?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- 맥주 하나 주세요</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- 화장실은 어디에 있습니까?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- 당신은 나에게 메뉴를하시기 바랍니다 줄 수 있을까요?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- 한 오믈렛, 제발</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- 일부 Golaž하십시오</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- 당신은 나에게 청구서를하시기 바랍니다 가져올 수 있을까요?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- 아침 식사</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- 점심</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- 공식 만찬</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- 숟가락</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- 포크</string>
@@ -159,4 +159,6 @@
 	<string name="version">번역</string>
 	<string name="extra_text1">이 응용 프로그램은 매우 유용합니다! \\n다음 그! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">지침 58분의 2,002 유럽 의회와 이사회의 / EC에 따라이 사이트 장치 식별자는 소셜 미디어 기능을 제공하기 위해, 콘텐츠와 광고를 맞춤 설정하는 데 사용되는 트래픽을 분석 할 것을 통보한다. 우리는 이러한 식별자와 우리의 소셜 미디어 파트너, 광고 및 웹 분석과 기기에 다른 정보를 공유 할 수 있습니다. http://la-gatera.hol.es에 대한 자세한 내용은</string>
+	<string name="map">지도</string>
+	<string name="map_of_slovenia">슬로베니아의지도</string>
 </resources>

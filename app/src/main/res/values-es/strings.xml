@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <resources>
 	<string name="app_name">Visita Eslovenia HD</string>
-	<string name="toast_tts_inicializado">motor de texto a voz se ha inicializado</string>
+	<string name="toast_tts_inicializado">Se ha inicializado el motor de texto a voz </string>
 	<string name="toast_tts_error">Se produjo un error al inicializar Text-To-Speech Engine</string>
 	<string name="toast_redir">Volver a dirigir a Google Play para instalar motor de texto a discurso</string>
 	<string name="toast_set_language">Establecer el idioma TTS al Esloveno</string>
 	<string name="hola">Zdravo -- Hola</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- Encantada de conocerte</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Buenos días</string>
@@ -22,14 +22,14 @@
 	<string name="quetal">Kako si? -- ¿Qué tal?</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- me siento bien</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- Buen provecho</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- ¿Me puedes ayudar?</string>
 	<string name="di_me_puede_ayudar">Mi lahko pomagaš?</string>
 	<string name="cuanto_cuesta">Koliko je to? -- ¿Cuánto cuesta?</string>
 	<string name="di_cuanto_cuesta">Koliko je to?</string>
-	<string name="no_hablo_espanol">Ne govorim Sloveninan -- No hablo Sloveninan</string>
+	<string name="no_hablo_espanol">Ne govorim Sloveninan -- No hablo Esloveno</string>
 	<string name="di_no_hablo_espanol">Ne govorim Sloveninan</string>
 	<string name="necesito_un_medico">Rabim zdravnika -- Necesito un médico</string>
 	<string name="di_necesito_un_medico">rabim zdravnika</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- Una cerveza por favor</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- ¿Dónde está la toilette?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- ¿Me Podría dar el menú, por favor?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- Una tortilla, por favor</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- Algunos Golaz favor</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- ¿Me Podría traer la cuenta, por favor?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- Desayuno</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- Almuerzo</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- Cena</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- Cuchara</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- Tenedor</string>
@@ -158,5 +158,7 @@
 	<string name="textoabout">Concepto por Mymma Soto \nDesarrollado por Aabcdata \nIconos de Icons Land \nhttp://www.icons-land.com</string>
 	<string name="version">Versión</string>
 	<string name="extra_text1">Esta aplicación es muy útil!  \nPruébala \nhttps://play.google.com/store/apps/details?id=</string>
-	<string name="mensaje_cookies">De acuerdo con la Directiva 2002/58 / CE del Parlamento Europeo y del Consejo, se informa que este sitio de identificadores de dispositivos se utilizan para personalizar contenido y anuncios, con el fin de proporcionar funciones de medios sociales y para analizar el tráfico. También compartimos estos identificadores y otra información de su dispositivo con nuestros socios de los medios sociales, publicidad y análisis web. Más detalles sobre http://la-gatera.hol.es</string>
+	<string name="mensaje_cookies">De acuerdo con la Directiva 2002/58 / CE del Parlamento Europeo y del Consejo, se informa que esta aplicación utiliza identificadores de dispositivo para personalizar el contenido y los anuncios con el fin de proporcionar funciones de medios sociales y para analizar el tráfico. \nTambién compartimos estos identificadores y otra información de su dispositivo con nuestros socios de los medios sociales, publicidad y análisis web. Más detalles en http://la-gatera.hol.es</string>
+	<string name="map">Mapa</string>
+	<string name="map_of_slovenia">Mapa de Eslovenia</string>
 </resources>

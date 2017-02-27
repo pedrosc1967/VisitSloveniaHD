@@ -6,7 +6,7 @@
 	<string name="toast_redir">Redirection vers Google Play pour installer Text to Speech moteur</string>
 	<string name="toast_set_language">Réglage de la langue TTS à Slovène</string>
 	<string name="hola">Zdravo -- Bonjour</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- Ravi de vous rencontrer</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Bonjour</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- Comment allez-vous?</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- je me sens bien</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- Bon appétit</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- Pouvez-vous m\'aider?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- Une bière s\'il vous plaît</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- Où est la toilette?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- Pourriez-vous me donner le menu, s\'il vous plaît?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- Une omelette, s\'il vous plaît</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- Certains Golaz s\'il vous plaît</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- Pourriez-vous me faire le projet de loi, s\'il vous plaît?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- Déjeuner</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- Le déjeuner</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- Dîner</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- Cuillère</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- Fourchette</string>
@@ -159,4 +159,6 @@
 	<string name="version">Version</string>
 	<string name="extra_text1">Cette application est très utile!  NEssayez it! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">Selon la directive 2002/58 / CE du Parlement européen et du Conseil, il est informé que ce dispositif de site identificateurs sont utilisés pour personnaliser le contenu et les annonces, afin de fournir des fonctionnalités de médias sociaux et d\'analyser le trafic. Nous partageons également ces identifiants et autres informations sur votre appareil avec nos partenaires des médias sociaux, la publicité et web analytics. Plus de détails sur http://la-gatera.hol.es</string>
+	<string name="map">Carte</string>
+	<string name="map_of_slovenia">Carte de Slovénie</string>
 </resources>

@@ -6,7 +6,7 @@
 	<string name="toast_redir">Uudelleenohjataan Google Play asentaa Teksti puheeksi moottori</string>
 	<string name="toast_set_language">Asetus TTS kieli Slovenian</string>
 	<string name="hola">Zdravo -- Hei</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- Mukava tavata sinut</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Hyvää huomenta</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- Kuinka voit?</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- minulla on hyvä olo</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- Hyvää ruokahalua</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- Voitko auttaa minua?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- Yksi olut kiitos</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- Missä on wc?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- Voisitteko antaa minulle valikkoon, kiitos?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- Yksi munakas, olkaa hyvä</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- Jotkut Golaz ota</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- Voisitko tuoda minulle laskun, kiitos?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- Aamiainen</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- Lounas</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- päivällinen</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- Lusikka</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- Haarukka</string>
@@ -159,4 +159,6 @@
 	<string name="version">Versio</string>
 	<string name="extra_text1">Tämä sovellus on erittäin hyödyllinen!  NYritä se! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">Direktiivin 2002/58 / EY, Euroopan parlamentin ja neuvoston sille ilmoitetaan, että tämä sivusto laite tunnisteita käytetään sisällön ja mainosten, jotta sosiaalisen median ominaisuuksia ja analysoida liikennettä. Olemme myös jakaa nämä tunnisteet ja muita tietoja laitteen kanssa sosiaalisen median kanssa, mainonta ja web-analytiikan. Tarkempia tietoja http://la-gatera.hol.es</string>
+	<string name="map">Kartta</string>
+	<string name="map_of_slovenia">Kartta Slovenia</string>
 </resources>

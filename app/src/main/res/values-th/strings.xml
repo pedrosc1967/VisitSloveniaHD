@@ -6,7 +6,7 @@
 	<string name="toast_redir">เปลี่ยนเส้นทางไปยัง Google Play ในการติดตั้งกับเครื่องยนต์ข้อความคำพูด</string>
 	<string name="toast_set_language">การตั้งค่าภาษา TTS จะสโลวีเนีย</string>
 	<string name="hola">Zdravo -- สวัสดี</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- ยินดีที่ได้พบคุณ</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- อรุณสวัสดิ์</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- เป็นอย่างไรบ้าง?</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- ฉันรู้สึกดี</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- อร่อย</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- คุณสามารถช่วยฉันได้ไหม?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- หนึ่งเบียร์โปรด</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- เป็น Toilette อยู่ที่ไหน?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- คุณจะให้ฉันเมนูโปรด?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- หนึ่งไข่เจียวโปรด</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- บางGolažโปรด</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- คุณสามารถนำมาให้ฉันเรียกเก็บเงินหน่อยได้ไหม?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- อาหารเช้า</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- อาหารกลางวัน</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- อาหารเย็น</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- ช้อน</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- ส้อม</string>
@@ -159,4 +159,6 @@
 	<string name="version">รุ่น</string>
 	<string name="extra_text1">โปรแกรมนี้จะเป็นประโยชน์อย่างมาก! \\nทดลองใช้มัน! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">ตามแนวทาง 2002/58 / EC ของรัฐสภายุโรปและคณะมนตรีมันจะได้รับแจ้งว่านี้ระบุอุปกรณ์เว็บไซต์ที่ใช้ในการกำหนดเนื้อหาและโฆษณาในการสั่งซื้อเพื่อให้คุณลักษณะสื่อสังคมและการวิเคราะห์การจราจร เรายังมีการแบ่งตัวบ่งชี้เหล่านี้และข้อมูลอื่น ๆ บนอุปกรณ์ของคุณกับพันธมิตรของเราสื่อสังคม, การโฆษณาและการวิเคราะห์เว็บ รายละเอียดเพิ่มเติมเกี่ยว http://la-gatera.hol.es</string>
+	<string name="map">แผนที่</string>
+	<string name="map_of_slovenia">แผนที่ของสโลวีเนีย</string>
 </resources>

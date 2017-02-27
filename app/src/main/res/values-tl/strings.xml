@@ -6,7 +6,7 @@
 	<string name="toast_redir">Nagre-redirect sa Google Play Gorang i-install ng Teksto sa Speech engine</string>
 	<string name="toast_set_language">Pagse-set TTS wika Gorang Slovenian</string>
 	<string name="hola">Zdravo -- Kamusta</string>
-	<string name="di_hola">Zdravo</string>
+	<string name="di_hola">sdravo</string>
 	<string name="adios">Me veseli -- NIce to meet you</string>
 	<string name="di_adios">Me veseli</string>
 	<string name="buenosdias">Dobro jutro -- Magandang umaga</string>
@@ -22,7 +22,7 @@
 	<string name="quetal">Kako si? -- Kamusta ka?</string>
 	<string name="di_quetal">Kako si?</string>
 	<string name="bien_gracias">Jaz sem dobro počutje -- maganda ang aking pakiramdam</string>
-	<string name="di_bien_gracias">Jaz sem dobro počutje</string>
+	<string name="di_bien_gracias">Jaz sem dobro pociutie</string>
 	<string name="buen_provecho">Dober tek -- mabuting gana</string>
 	<string name="di_buen_provecho">Dober tek</string>
 	<string name="me_puede_ayudar">Mi lahko pomagaš? -- Matutulungan mo ba ako?</string>
@@ -80,7 +80,7 @@
 	<string name="una_cerveza">Eno pivo, prosim -- One beer, mangyaring</string>
 	<string name="di_una_cerveza">Eno pivo, prosim</string>
 	<string name="el_bano">Kje je stranišče? -- Saan ang pagbibihis?</string>
-	<string name="di_el_bano">Kje je stranišče?</string>
+	<string name="di_el_bano">Kje je straniscie?</string>
 	<string name="la_carta">Ali mi lahko poveste meni, prosim? -- Puwede ba ninyo akong bigyan ng menu, please?</string>
 	<string name="di_la_carta">Ali mi lahko poveste meni, prosim?</string>
 	<string name="una_tortilla">Ena omleta, prosim -- One omelette, mangyaring</string>
@@ -88,13 +88,13 @@
 	<string name="una_paella">Nekateri Golaz prosim -- Ang ilang mga Golaž mangyaring</string>
 	<string name="di_una_paella">Nekateri Golaz prosim</string>
 	<string name="la_cuenta">Ali mi lahko prinese račun, prosim? -- Maaari mo bang dalhin sa akin ang bill, please?</string>
-	<string name="di_la_cuenta">Ali mi lahko prinese račun, prosim?</string>
+	<string name="di_la_cuenta">Ali mi lahko prinese raciun, prosim?</string>
 	<string name="desayuno">Zajtrk -- almusal</string>
 	<string name="di_desayuno">Zajtrk</string>
 	<string name="comida">Kosilo -- Tanghalian</string>
 	<string name="di_comida">Kosilo</string>
 	<string name="cena">večerja -- hapunan</string>
-	<string name="di_cena">večerja</string>
+	<string name="di_cena">vecieria</string>
 	<string name="cuchara">žlica -- Spoon</string>
 	<string name="di_cuchara">žlica</string>
 	<string name="tenedor">Vilice -- tinidor</string>
@@ -159,4 +159,6 @@
 	<string name="version">bersyon</string>
 	<string name="extra_text1">Ang application na ito ay lubhang kapaki-pakinabang!  NSubukang ito! \\nhttps://play.google.com/store/apps/details?id=</string>
 	<string name="mensaje_cookies">Ayon sa Directive 2002/58 / EC ng European Parliament at ng Konseho ng ito ay alam na ang site na ito aparato tagapagkilala ay ginagamit Gorang i-personalize ang nilalaman at mga ad, Gorang magbigay ng mga tampok na panlipunan media at Gorang pag-aralan ang trapiko. Din namin ibahagi ang mga tagapagpakilala ng at iba pang impormasyon sa iyong aparato gamit ang aming mga kasosyo social media, advertising at web analytics. Higit pang mga detalye sa http://la-gatera.hol.es</string>
+	<string name="map">Mapa</string>
+	<string name="map_of_slovenia">Mapa ng mga Islobenya</string>
 </resources>
