@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/button_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonVocabulary"
+                android:text="@string/vocabulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true"
+                android:elegantTextHeight="false" />
+
+            <Button
+                android:id="@+id/buttonMap"
+                android:text="@string/map_of_slovenia"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/basicData"
+                android:text="@string/basic_data"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/comoLLegar"
+                android:text="@string/arrival"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/clima"
+                android:text="@string/climate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/atracciones"
+                android:text="@string/attractions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/bled"
+                android:text="@string/bled"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/postoina"
+                android:text="@string/postoina"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/triglav"
+                android:text="@string/triglav"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/isonzo"
+                android:text="@string/isonzo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/motorrail"
+                android:text="@string/motorail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/piran"
+                android:text="@string/piran"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/velika"
+                android:text="@string/velika"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/logar"
+                android:text="@string/logar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/vine"
+                android:text="@string/vine"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/regiones"
+                android:text="@string/regions"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true"/>
+
+            <Button
+                android:id="@+id/active"
+                android:text="@string/active"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/biking"
+                android:text="@string/biking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/bohinj"
+                android:text="@string/bohinj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+            <Button
+                android:id="@+id/spa"
+                android:text="@string/spa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#03ffd5"
+                android:fontFamily="sans-serif-thin"
+                android:textColor="#000000"
+                android:divider="@android:color/black"
+                android:textSize="28sp"
+                android:textAllCaps="false"
+                android:nestedScrollingEnabled="true" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

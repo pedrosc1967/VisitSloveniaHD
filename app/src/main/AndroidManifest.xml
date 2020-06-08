@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.visit.slovenia.hd"
+    package="com.aplanetbit.visit.slovenia.hd"
     android:versionCode="1"
     android:versionName="1.0">
-
-    <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="15" />
 
     <supports-screens
         android:anyDensity="true"
@@ -44,66 +40,11 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <!-- Declare RevMob activity
-        <activity
-            android:name="com.revmob.ads.fullscreen.FullscreenActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:theme="@android:style/Theme.Translucent" />
-
-        -->
-        <!-- Declare Facebook app ID -->
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
-
-        <!-- RevMob Media ID -->
-        <meta-data
-            android:name="com.revmob.app.id"
-            android:value="@string/revmobstr" />
-        <!-- android:value="55bf51d60f06624354cab257" -->
-
-
-        <!--
-     Optionally, register AnalyticsReceiver and AnalyticsService to support background
-     dispatching on non-Google Play devices
-        -->
-        <receiver
-            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
-            android:enabled="true">
-            <intent-filter>
-                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="com.google.android.gms.analytics.AnalyticsService"
-            android:enabled="true"
-            android:exported="false" />
-
-        <!--
-             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
-             installation campaign reporting
-        -->
-        <receiver
-            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
-            </intent-filter>
-        </receiver>
-
-        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
-
-        <!-- Para Google Analytics -->
-
-        <meta-data
-            android:name="com.google.android.gms.analytics.globalConfigResource"
-            android:resource="@xml/global_tracker" />
-
         <!-- suppress AndroidDomInspection -->
         <activity
-            android:name=".VisitSloveniaHD"
-            android:label="@string/app_name">
+            android:name="com.aplanetbit.visit.slovenia.hd.VisitSloveniaHD"
+            android:label="@string/app_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -112,97 +53,183 @@
         </activity>
 
         <!-- This meta-data tag is required to use Google Play Services. -->
+
         <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.apptracker.android.module.AppModuleActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:hardwareAccelerated="false" />
-        <activity
-            android:name="com.facebook.FacebookActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name=".Vocabulario"
+            android:name="com.aplanetbit.visit.slovenia.hd.Vocabulario"
             android:label="@string/vocabulario">
             <intent-filter>
-                <action android:name="com.visit.slovenia.hd.Vocabulario" />
+                <action android:name="com.aplanetbit.visit.slovenia.hd.Vocabulario" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapActivity">
+        <activity android:name="com.aplanetbit.visit.slovenia.hd.MapActivity">
             <intent-filter>
-                <action android:name="com.visit.slovenia.hd.MapActivity" />
+                <action android:name="com.aplanetbit.visit.slovenia.hd.MapActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
-        <provider
-            android:name="com.facebook.FacebookContentProvider"
-            android:authorities="com.facebook.app.FacebookContentProvider1759289410974589"
-            android:exported="true" />
-
-        <!-- PRESAGE LIBRARY
-        <meta-data
-            android:name="presage_key"
-            android:value="@string/OguryStr" />
-
-        <service android:name="io.presage.services.PresageServiceImp" />
-        -->
-        <!--
-        <activity
-            android:name="io.presage.activities.PresageActivity"
-            android:label="@string/app_name"
-            android:theme="@style/Presage.Theme.Transparent">
+        <activity android:name="com.aplanetbit.visit.slovenia.hd.BasicDataActivity">
             <intent-filter>
-                <action android:name="io.presage.intent.action.LAUNCH_WEBVIEW" />
+                <action android:name="com.aplanetbit.visit.slovenia.hd.BasicDataActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.aplanetbit.visit.slovenia.hd.ComoLlegarActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.ComoLlegarActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
 
-
-        <receiver android:name="io.presage.receivers.BootReceiver">
+        <activity android:name="com.aplanetbit.visit.slovenia.hd.ClimateActivity">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.DATE_CHANGED" />
-                <action android:name="io.presage.receivers.BootReceiver.RESTART_SERVICE" />
-            </intent-filter>
-        </receiver>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.ClimateActivity" />
 
-        -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.aplanetbit.visit.slovenia.hd.AtractionsActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.AtractionsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BledActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.BledActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PostoinaActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.PostoinaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".TriglavActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.TriglavActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IsonzoActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.IsonzoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MotorrailActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.MotorrailActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PiranActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.PiranActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".VelikaPlaninaActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.VelikaPlaninaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LogarActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.LogarActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".VideActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.VideActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegionesActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.RegionesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".VacacionesActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.VacacionesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CiclismoActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.CiclismoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LagoBohiniActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.LagoBohiniActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SpaActivity">
+            <intent-filter>
+                <action android:name="com.aplanetbit.visit.slovenia.hd.SpaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyA_O2TpaRbzqWdiBfhX7b-ykBJ0bQCF4rg" />
 
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-        -->
-
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-
         <activity
-            android:name=".SloveniaMapsActivity"
+            android:name="com.aplanetbit.visit.slovenia.hd.SloveniaMapsActivity"
             android:label="@string/title_activity_slovenia_maps"></activity>
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/application_id"/>
     </application>
 
 </manifest>

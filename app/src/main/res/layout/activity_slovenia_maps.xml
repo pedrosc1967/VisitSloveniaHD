@@ -5,9 +5,9 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.visit.slovenia.hd.MapActivity" />
+    tools:context="com.aplanetbit.visit.slovenia.hd.MapActivity" />
 
 <!--
 Esto funcionaba bien
-tools:context="com.visit.slovenia.hd.SloveniaMapsActivity" />
+tools:context="com.aplanetbit.visit.slovenia.hd.SloveniaMapsActivity" />
 -->

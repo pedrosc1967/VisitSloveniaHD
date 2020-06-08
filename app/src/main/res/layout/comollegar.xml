@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/btn_default_normal_lblue"
+              android:textSize="20sp"
+              android:text="Como llegar a Eslovenia\n\n
+
+Eslovenia cuenta con tres aeropuertos internacionales, el más importante está \n
+situado en la capital del país, Ljubljana, a unos 25 km. del centro urbano, \n
+concretamente está ubicado en Brnik. Las instalaciones acogen restaurantes, \n
+servicio de alquiler de vehículos, parking, oficina de cambio de moneda y \n
+correos.\n\n
+
+Aeropuerto-de-LjubljanaLa mayoría de los vuelos se operan por la compañía \n
+Star Adria Airways, aunque algunas extranjeras también realizan trayectos aquí.\n\n
+
+Los otros dos aeropuertos son el de Portoroz y el de Maribor.\n\n
+
+Desde España no existen vuelos directos, así que si tienes pensado realizar \n
+el viaje en avión hay que pensar en realizar alguna escala, Lufthansa, Brussels \n
+Airlines, Finnair, Swiss, Air France y SAS, pueden ser nuestras alternativas.\n\n
+
+Aunque hay otras alternativas más económicas para realizar este apetitoso viaje.\n
+ Muchos son los que vuelan hasta Venecia, si eres previsor puedes conseguir un \n
+ vuelo low cost baratito.\n\n
+
+Desde allí tienes varias opciones, moverte en tren, autobus o alquilar un vehículo\n
+ y conducir hasta Ljubljana. En dos horas y media aproximadamente estarás en \n
+ la capital.\n\n
+
+Hay que tener en cuenta que es obligatorio circular por las autopistas \n
+y vías rápidas eslovenas con un bono llamado viñeta que se adquiere en las \n
+gasolineras, estancos, centros comerciales o zonas de peaje, si no portas este \n
+documento te pueden multar. El precio por semana es de 15 € para automóviles.\n\n
+
+Otra opción es coger un tren desde Venecia hasta Ljubljana, alrededor de cuatro \n
+horas es el tiempo estimado de trayecto. La estación de tren se ubica en el centro \n
+de la capital, además la red ferroviaria eslovena es muy recomendable para viajar \n
+por todo el país.  Las distancias son cortas y es bastante económico.\n\n
+
+Además también podremos cubrir este trayecto en bus, alrededor de tres horas y \n
+media, y unos 25 euros por trayecto. La estación de tren está en el centro de \n
+la ciudad, por lo que es de gran utilidad para poder movernos por otros lugares. \n\n
+
+Desde España también hay vuelos low cost a Trieste, en Italia, y desde dónde \n
+podremos encauzar nuestro viaje con los mismos medios de transporte que desde Venecia. \n\n
+
+Si decides volar hasta el principal aeropuerto esloveno el Joze Pucnik, \n
+dispones de conexiones amplias, desde el andén 28 se toma un autobús, el precio \n
+del billete es de unos 4 euros y el trayecto dura alrededor de una hora.\n">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/aeropuerto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/aeropuertolubliana">
+            </ImageView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
+
