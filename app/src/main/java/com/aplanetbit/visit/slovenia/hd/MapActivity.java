@@ -40,32 +40,17 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Lubliana and move the camera
-        LatLng lubliana = new LatLng(46, 14.5);
+        // Add a marker near Lubliana and move the camera
+        LatLng lubliana = new LatLng(46, 14.98);
         //mMap.addMarker(new MarkerOptions().position(lubliana).title("Lubliana"));
         //mMap.moveCamera(CameraUpdateFactory.newLatLng(lubliana));
 
         CameraPosition cameraPosition = new CameraPosition.Builder()
                 .target(lubliana )      // Sets the center of the map to Mountain View
-                .zoom(8)                   // Sets the zoom
+                .zoom((float) 7.5)      // Sets the zoom. It was 8
                 .bearing(0)                // Sets the orientation of the camera to north
                 .tilt(0)                   // Sets the tilt of the camera to 0 degrees
                 .build();                   // Creates a CameraPosition from the builder
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
     }
 }
-
-
-/*
-import android.app.Activity;
-import android.os.Bundle;
-
-public class MapActivity extends Activity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map);
-    }
-}
-*/
