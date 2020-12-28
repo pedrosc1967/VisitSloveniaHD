@@ -22,18 +22,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ShareActionProvider;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.facebook.ads.AdSize;
+import com.facebook.ads.AdView;
+import com.facebook.ads.AudienceNetworkAds;
 
 import java.io.IOException;
 import java.text.MessageFormat;
@@ -55,8 +53,6 @@ public class Vocabulario extends Activity implements OnInitListener {
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
-
-
 
     //Definici�n del men� en menu.xml
     @Override
@@ -122,25 +118,27 @@ public class Vocabulario extends Activity implements OnInitListener {
         super.onResume();
     }
 
-    // AdMob
-    private AdView mAdView;
+    private AdView adView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vocabulario);
 
-        // Initalize AdMob
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
 
-        //Request AdMob ad
-        mAdView = (AdView)this.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+        // Initialize the Audience Network SDK
+        AudienceNetworkAds.initialize(this);
+
+        adView = new AdView(this, getString(R.string.FAN_banner_id), AdSize.BANNER_HEIGHT_50);
+
+        // Find the Ad Container
+        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
+
+        // Add the ad view to your activity layout
+        adContainer.addView(adView);
+
+        // Request an ad
+        adView.loadAd();
 
         //Esta mierda viene de Google
 
@@ -1363,6 +1361,12 @@ public class Vocabulario extends Activity implements OnInitListener {
             }
         }
     }
-
-
+    //Para FAN
+    @Override
+    protected void onDestroy() {
+        if (adView != null) {
+            adView.destroy();
+        }
+        super.onDestroy();
+    }
 }

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,17 +21,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ShareActionProvider;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.facebook.ads.AdSize;
+import com.facebook.ads.AdView;
+import com.facebook.ads.AudienceNetworkAds;
 
 import java.io.IOException;
 import java.text.MessageFormat;
@@ -41,6 +41,7 @@ import static android.content.Intent.ACTION_VIEW;
 
 public class VisitSloveniaHD extends Activity implements OnInitListener {
 
+    private AdView adView;
 
     private int MY_DATA_CHECK_CODE = 0;
     private TextToSpeech mTts;
@@ -52,7 +53,6 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
-
 
     //Definici�n del men� en menu.xml
     @Override
@@ -86,7 +86,7 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.Otras_apps:
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/search?q=Aabcdata&c=apps")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/collection/cluster?clp=igM4ChkKEzgxMzQyNTg2NTUwODQ1MTg1NzQQCBgDEhkKEzgxMzQyNTg2NTUwODQ1MTg1NzQQCBgDGAA%3D:S:ANO1ljJfH-4&gsr=CjuKAzgKGQoTODEzNDI1ODY1NTA4NDUxODU3NBAIGAMSGQoTODEzNDI1ODY1NTA4NDUxODU3NBAIGAMYAA%3D%3D:S:ANO1ljIsTuoLetalo")));
                 return true;
             case R.id.Rate:
                 startActivity(new Intent(ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + getString(R.string.paquete))));
@@ -127,18 +127,19 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        // Initalize AdMob
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
+        // Initialize the Audience Network SDK
+        AudienceNetworkAds.initialize(this);
 
-        //Request AdMob ad
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+        adView = new AdView(this, getString(R.string.FAN_banner_id), AdSize.BANNER_HEIGHT_50);
 
+        // Find the Ad Container
+        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
+
+        // Add the ad view to your activity layout
+        adContainer.addView(adView);
+
+        // Request an ad
+        adView.loadAd();
 
         OnClickButtonListener();
         OnClickButtonMapListener();
@@ -559,17 +560,15 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
 
     }
 
+    //Este di�logo es para contruir el di�logo de acerca de...
     public static class AboutDialogBuilder {
-        public static AlertDialog create(Context context) throws PackageManager.NameNotFoundException {
+        public static AlertDialog create( Context context ) throws PackageManager.NameNotFoundException {
             // Try to load the a package matching the name of our own package
-           // PackageInfo pInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), PackageManager.GET_META_DATA);
-           // String versionInfo = pInfo.versionName;
+            PackageInfo pInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), PackageManager.GET_META_DATA);
+            String versionInfo = pInfo.versionName;
 
-            String aboutTitle = MessageFormat.format("Visita la Slovenia HD", new Object [] {R.string.about});
-            String versionString = MessageFormat.format(String.valueOf(R.string.version), new Object [] {R.string.version});
-
-            //String aboutTitle = String.format(context.getString(R.string.about) + " %s", context.getString(R.string.app_name));
-            //String versionString = String.format(context.getString(R.string.version) + " %s", versionInfo);
+            String aboutTitle = String.format(context.getString(R.string.about) + " %s", context.getString(R.string.app_name));
+            String versionString = String.format(context.getString(R.string.version) +" %s", versionInfo);
             String aboutText = context.getString(R.string.textoabout);
 
             // Set up the TextView
@@ -588,6 +587,14 @@ public class VisitSloveniaHD extends Activity implements OnInitListener {
         }
     }
 
+    //Para FAN
+    @Override
+    protected void onDestroy() {
+        if (adView != null) {
+            adView.destroy();
+        }
+        super.onDestroy();
+    }
 
     @Override
     public void onInit(int status) {

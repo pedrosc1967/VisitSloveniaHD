@@ -206,7 +206,5 @@ Lago di Bohinj si trova in una valle glaciale e che comprende quasi 100 milioni 
 	<string name="comoLlegar" translatable="false">Como llegar</string>
 	<string name="title_activity_slovenia_maps" translatable="false">Map</string>
 	<string name="action_share" translatable="false">Share</string>
-	<string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string> <!-- Anuncios de prueba -->
-	<!-- <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3487468906571564/7484999621</string> Anuncios normales -->
-	<string name="application_id" translatable="false">ca-app-pub-3487468906571564~2615816324</string>
+	<string name="FAN_banner_id" translatable="false">591850004791023_591851994790824</string>
 </resources>

@@ -1,50 +1,45 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-235:12
-INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-235:12
-INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-235:12
-INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-235:12
-MERGED from [com.google.android.gms:play-services-ads:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/dea980fadcf289b7bf5fc62cc2a55ba8/jetified-play-services-ads-19.1.0/AndroidManifest.xml:17:1-25:12
+ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-231:12
+INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-231:12
+INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-231:12
+INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-231:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/4764869116b7944d884a78eb3b5d999f/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/173de8c433dc5f4aca0638778cb887e6/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
-MERGED from [androidx.browser:browser:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/bc445fac6463855dabab4033edb563c9/browser-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-gass:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/aaf012f6e2ea2885c8b50e81b97c1943/jetified-play-services-gass-19.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d7201c32ba2904754ed85e4eba7afa42/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7a18c3cd04002587231f053366cdc255/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/da497ac609b17f62135e064a56fed7d2/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/560559a1d2f072346120a8facd149d09/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/9cfddc7e36e5933ee2ea725c9bea78af/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/e40a377249758d23414d21222f000040/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/b685d122498cf50e728d648d063a2ff6/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0d46da4f5ac771dd79c1a2c9880b8580/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/369c371dbc36cd3420e0891af4dc30b8/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/97f01785cab2549e8be5ef5c8b1dbcb3/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3584c755b13ff246a30ea06b73bd9d78/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/fee859eac2601f0c53561481b8362e20/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/2d0e89544ecc30a9184b81b65acf458e/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/41b35432fd9a085c3fe75e63c317b7cb/jetified-play-services-ads-base-19.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0e4335c82d4d573388d62295e89eaaed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/a87a91cfc12796be4a5399f6708c1bed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/4b326e320f7fb8e89e2bb3879ac950d2/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/ba74e7a1df14494ca70ea72adf4fc3bf/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d6ed104b1267309eec087762b08ed9e/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/000772770b31839da1ff8a942bf73abb/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/9c0d2720907bb8bd5d5976efee735314/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d00c90699ae27cc1e1ce5e4b3e530617/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/13ac386f95e101744ae5f7d486caaa8c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-235:12
-INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-235:12
-INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-235:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-231:12
+INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-231:12
+INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:2:1-231:12
 	package
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
@@ -83,22 +78,18 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:17:9-32
 uses-permission#android.permission.INTERNET
 ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:19:5-67
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:11:5-67
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:20:5-79
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:12:5-79
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:12:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:20:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -119,8 +110,6 @@ ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/Android
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:24:22-75
 uses-permission#android.permission.WAKE_LOCK
 ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:25:5-68
 	android:name
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:25:22-65
 uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
@@ -156,31 +145,25 @@ ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/Android
 	android:name
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:33:22-95
 application
-ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:35:5-233:19
+ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:35:5-229:19
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:14:5-25:19
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:14:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-gass:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/aaf012f6e2ea2885c8b50e81b97c1943/jetified-play-services-gass-19.1.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/aaf012f6e2ea2885c8b50e81b97c1943/jetified-play-services-gass-19.1.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d7201c32ba2904754ed85e4eba7afa42/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d7201c32ba2904754ed85e4eba7afa42/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:26:5-40:19
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:26:5-40:19
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7a18c3cd04002587231f053366cdc255/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7a18c3cd04002587231f053366cdc255/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/da497ac609b17f62135e064a56fed7d2/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/da497ac609b17f62135e064a56fed7d2/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/41b35432fd9a085c3fe75e63c317b7cb/jetified-play-services-ads-base-19.1.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/41b35432fd9a085c3fe75e63c317b7cb/jetified-play-services-ads-base-19.1.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0e4335c82d4d573388d62295e89eaaed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0e4335c82d4d573388d62295e89eaaed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:38:9-41
 	android:icon
@@ -439,38 +422,24 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:227:61-85
 	android:name
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:227:23-60
-meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:230:9-232:53
-	android:value
-		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:232:13-51
-	android:name
-		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:231:13-69
 uses-sdk
 INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
 INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.gms:play-services-ads:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/dea980fadcf289b7bf5fc62cc2a55ba8/jetified-play-services-ads-19.1.0/AndroidManifest.xml:21:5-23:52
-MERGED from [com.google.android.gms:play-services-ads:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/dea980fadcf289b7bf5fc62cc2a55ba8/jetified-play-services-ads-19.1.0/AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/4764869116b7944d884a78eb3b5d999f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/4764869116b7944d884a78eb3b5d999f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/380cbbd0623e9b22e21961fc6ec82b14/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/173de8c433dc5f4aca0638778cb887e6/appcompat-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/173de8c433dc5f4aca0638778cb887e6/appcompat-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/cad243eba5d5e9d30aead8f2caf75568/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/bc445fac6463855dabab4033edb563c9/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.browser:browser:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/bc445fac6463855dabab4033edb563c9/browser-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/aaf012f6e2ea2885c8b50e81b97c1943/jetified-play-services-gass-19.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/aaf012f6e2ea2885c8b50e81b97c1943/jetified-play-services-gass-19.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d7201c32ba2904754ed85e4eba7afa42/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d7201c32ba2904754ed85e4eba7afa42/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d35de9d7b8aa85fb9f41e38a227c7d2/jetified-play-services-measurement-sdk-api-17.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7a18c3cd04002587231f053366cdc255/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7a18c3cd04002587231f053366cdc255/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/da497ac609b17f62135e064a56fed7d2/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/da497ac609b17f62135e064a56fed7d2/jetified-play-services-measurement-base-17.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5feaec8abf5f0f657ccb7d51c61164e6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/560559a1d2f072346120a8facd149d09/fragment-1.0.0/AndroidManifest.xml:20:5-44
@@ -479,12 +448,6 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/aplan
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/9cfddc7e36e5933ee2ea725c9bea78af/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/e40a377249758d23414d21222f000040/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/e40a377249758d23414d21222f000040/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/b685d122498cf50e728d648d063a2ff6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/b685d122498cf50e728d648d063a2ff6/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0d46da4f5ac771dd79c1a2c9880b8580/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -495,22 +458,22 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/aplanetb
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/97f01785cab2549e8be5ef5c8b1dbcb3/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3584c755b13ff246a30ea06b73bd9d78/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3584c755b13ff246a30ea06b73bd9d78/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/3dd2a90cf4903229672e8d620934c6ca/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0fb8e25fc44fd9ed16295a22707e11f8/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d1290085211f6ca31e4b44ad501b0e7c/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/fee859eac2601f0c53561481b8362e20/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/fee859eac2601f0c53561481b8362e20/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/2d0e89544ecc30a9184b81b65acf458e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/2d0e89544ecc30a9184b81b65acf458e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/a3551ab13be12ed63d05f9b0aaa8242a/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/41b35432fd9a085c3fe75e63c317b7cb/jetified-play-services-ads-base-19.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/41b35432fd9a085c3fe75e63c317b7cb/jetified-play-services-ads-base-19.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0e4335c82d4d573388d62295e89eaaed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/0e4335c82d4d573388d62295e89eaaed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/a87a91cfc12796be4a5399f6708c1bed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/a87a91cfc12796be4a5399f6708c1bed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/4b326e320f7fb8e89e2bb3879ac950d2/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/4b326e320f7fb8e89e2bb3879ac950d2/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/ba74e7a1df14494ca70ea72adf4fc3bf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
@@ -519,16 +482,18 @@ MERGED from [androidx.print:print:1.0.0] /Users/aplanetbit/.gradle/caches/transf
 MERGED from [androidx.print:print:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/5d6ed104b1267309eec087762b08ed9e/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/000772770b31839da1ff8a942bf73abb/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/000772770b31839da1ff8a942bf73abb/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/30612fa1f33fcbb3e456c3a5f852366f/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/9c0d2720907bb8bd5d5976efee735314/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/9c0d2720907bb8bd5d5976efee735314/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d00c90699ae27cc1e1ce5e4b3e530617/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d00c90699ae27cc1e1ce5e4b3e530617/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/13ac386f95e101744ae5f7d486caaa8c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/13ac386f95e101744ae5f7d486caaa8c/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/706aa5d8c8a43873cd63a96842e3a9e8/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
 INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/dea980fadcf289b7bf5fc62cc2a55ba8/jetified-play-services-ads-19.1.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
 		INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
@@ -537,26 +502,24 @@ INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/Andr
 		INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
 		ADDED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml
-activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:29:9-33:64
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:15:9-19:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:32:13-37
+		ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:18:13-37
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:31:13-122
+		ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:17:13-74
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:33:13-61
+		ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:19:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:30:13-65
-provider#com.google.android.gms.ads.MobileAdsInitProvider
-ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:35:9-39:39
+		ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:16:13-68
+provider#com.facebook.ads.AudienceNetworkContentProvider
+ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:21:9-24:40
 	android:authorities
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:37:13-73
+		ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:23:13-82
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:38:13-37
-	android:initOrder
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:39:13-36
+		ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:36:13-76
+		ADDED from [com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:22:13-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 	android:exported

@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.aplanetbit.visit.slovenia.hd"
-4    android:versionCode="10"
-5    android:versionName="1.0" >
+4    android:versionCode="14"
+5    android:versionName="1.4" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
@@ -79,11 +79,11 @@
 37-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:33:22-95
 38
 39    <application
-39-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:35:5-233:19
+39-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:35:5-229:19
 40        android:allowBackup="true"
 40-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:36:9-35
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-41-->[androidx.core:core:1.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/799659d157cba173c3391744d4f4133c/core-1.0.0/AndroidManifest.xml:22:18-86
+41-->[androidx.core:core:1.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/34b4ab0d8b65ac74ddd00d45b26dd963/core-1.1.0/AndroidManifest.xml:24:18-86
 42        android:debuggable="true"
 43        android:icon="@mipmap/ic_launcher"
 43-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:37:9-43
@@ -425,44 +425,34 @@
 217            android:required="false" />
 217-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:227:61-85
 218
-219        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
-220        <meta-data
-220-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:230:9-232:53
-221            android:name="com.google.android.gms.ads.APPLICATION_ID"
-221-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:231:13-69
-222            android:value="@string/application_id" />
-222-->/Users/aplanetbit/StudioProjects/VisitSloveniaHD/app/src/main/AndroidManifest.xml:232:13-51
-223        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-224        <activity
-224-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:29:9-33:64
-225            android:name="com.google.android.gms.ads.AdActivity"
-225-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:30:13-65
-226            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-226-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:31:13-122
-227            android:exported="false"
-227-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:32:13-37
-228            android:theme="@android:style/Theme.Translucent" />
-228-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:33:13-61
+219        <activity
+219-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:15:9-19:75
+220            android:name="com.facebook.ads.AudienceNetworkActivity"
+220-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:16:13-68
+221            android:configChanges="keyboardHidden|orientation|screenSize"
+221-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:17:13-74
+222            android:exported="false"
+222-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:18:13-37
+223            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+223-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:19:13-72
+224
+225        <provider
+225-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:21:9-24:40
+226            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+226-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:22:13-75
+227            android:authorities="com.aplanetbit.visit.slovenia.hd.AudienceNetworkContentProvider"
+227-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:23:13-82
+228            android:exported="false" />
+228-->[com.facebook.android:audience-network-sdk:5.9.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/658208da309e80a15350e08448531348/jetified-audience-network-sdk-5.9.0/AndroidManifest.xml:24:13-37
 229
-230        <provider
-230-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:35:9-39:39
-231            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-231-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:36:13-76
-232            android:authorities="com.aplanetbit.visit.slovenia.hd.mobileadsinitprovider"
-232-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:37:13-73
-233            android:exported="false"
-233-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:38:13-37
-234            android:initOrder="100" />
-234-->[com.google.android.gms:play-services-ads-lite:19.1.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/7dccbae8722c557870f80b0767a8d958/jetified-play-services-ads-lite-19.1.0/AndroidManifest.xml:39:13-36
+230        <activity
+230-->[com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+231            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+231-->[com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+232            android:exported="false"
+232-->[com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+233            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+233-->[com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+234    </application>
 235
-236        <activity
-236-->[com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-237            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-237-->[com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-238            android:exported="false"
-238-->[com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-239            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-239-->[com.google.android.gms:play-services-base:17.0.0] /Users/aplanetbit/.gradle/caches/transforms-2/files-2.1/d810550874c071a7f5afc391a91fdc61/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-240    </application>
-241
-242</manifest>
+236</manifest>
