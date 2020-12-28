@@ -54,7 +54,7 @@ import static android.content.Intent.ACTION_VIEW;
 import static com.visit.slovenia.hd.R.string.FacebookAudienceID;
 //import static io.presage.Presage.getInstance;
 
-public class Vocabulario extends Activity implements OnInitListener {
+public class vocabulario extends Activity implements OnInitListener {
 
     private int MY_DATA_CHECK_CODE = 0;
     private TextToSpeech mTts;
